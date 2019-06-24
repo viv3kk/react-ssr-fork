@@ -11,6 +11,7 @@
     "linter": "eslint src",
     "bundlesize": "bundlesize",
     "precommit": "eslint src --quiet"
+    
   },
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
