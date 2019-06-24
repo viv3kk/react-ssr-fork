@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React Server Side Rendering
 A baseline for server side rendering for your React application. This repo has a couple of tags that follow building full support for rendering React applications on the server.
 
@@ -29,3 +30,7 @@ Understand the different parts of server side rendering by going through each ta
 
 ## In depth explanations
 Read more about [implementing server side rendering](https://medium.com/@alexnm/demystifying-reacts-server-side-render-de335d408fe4) step by step. Feedback is more than welcome!
+=======
+# react-ssr-fork
+react-ssr-fork
+>>>>>>> b399522e9dc3ab875b2b96ee40167e014c7af24b
