@@ -2,6 +2,7 @@ import express from "express";
 import path from "path";
 
 import React from "react";
+import { ServerStyleSheets, ThemeProvider } from "@material-ui/styles";
 import { renderToString } from "react-dom/server";
 import { StaticRouter, matchPath } from "react-router-dom";
 import { Provider as ReduxProvider } from "react-redux";
@@ -9,6 +10,7 @@ import Helmet from "react-helmet";
 import routes from "./routes";
 import Layout from "./components/Layout";
 import createStore, { initializeSession } from "./store";
+import theme from "./theme";
 
 const app = express();
 
@@ -31,22 +33,31 @@ app.get( "/*", ( req, res ) => {
         const jsx = (
             <ReduxProvider store={ store }>
                 <StaticRouter context={ context } location={ req.url }>
-                    <Layout />
+                sheets.collect(
+                    <ThemeProvider theme={ theme }>
+                        <Layout />
+                    </ThemeProvider>,
+                ),
+                    
                 </StaticRouter>
             </ReduxProvider>
         );
+        const sheets = new ServerStyleSheets();
+        // Grab the CSS from our sheets.
+        const css = sheets.toString();
+
         const reactDom = renderToString( jsx );
         const reduxState = store.getState( );
         const helmetData = Helmet.renderStatic( );
 
         res.writeHead( 200, { "Content-Type": "text/html" } );
-        res.end( htmlTemplate( reactDom, reduxState, helmetData ) );
+        res.end( htmlTemplate( reactDom, reduxState, helmetData, css ) );
     } );
 } );
 
 app.listen( 2048 );
 
-function htmlTemplate( reactDom, reduxState, helmetData ) {
+function htmlTemplate( reactDom, reduxState, helmetData, css ) {
     return `
         <!DOCTYPE html>
         <html>
@@ -55,6 +66,7 @@ function htmlTemplate( reactDom, reduxState, helmetData ) {
             ${ helmetData.title.toString( ) }
             ${ helmetData.meta.toString( ) }
             <title>React SSR</title>
+            <style id="jss-server-side">${ css }</style>
         </head>
         
         <body>
