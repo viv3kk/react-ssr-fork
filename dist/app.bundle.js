@@ -2349,6 +2349,1100 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "../node_modules/@material-ui/core/esm/Card/Card.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/Card/Card.js ***!
+  \**********************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "../node_modules/@babel/runtime/helpers/extends.js");
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/objectWithoutProperties */ "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! clsx */ "../node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _Paper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Paper */ "../node_modules/@material-ui/core/esm/Paper/index.js");
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/withStyles */ "../node_modules/@material-ui/core/esm/styles/withStyles.js");
+
+
+
+
+
+
+
+var styles = {
+  /* Styles applied to the root element. */
+  root: {
+    overflow: 'hidden'
+  }
+};
+var Card = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function Card(props, ref) {
+  var classes = props.classes,
+      className = props.className,
+      _props$raised = props.raised,
+      raised = _props$raised === void 0 ? false : _props$raised,
+      other = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default()(props, ["classes", "className", "raised"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Paper__WEBPACK_IMPORTED_MODULE_5__["default"], _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.root, className),
+    elevation: raised ? 8 : 1,
+    ref: ref
+  }, other));
+});
+ true ? Card.propTypes = {
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * If `true`, the card will use raised styling.
+   */
+  raised: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool
+} : undefined;
+/* harmony default export */ __webpack_exports__["default"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_6__["default"])(styles, {
+  name: 'MuiCard'
+})(Card));
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/Card/index.js":
+/*!***********************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/Card/index.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card */ "../node_modules/@material-ui/core/esm/Card/Card.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Card__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/CardActions/CardActions.js":
+/*!************************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/CardActions/CardActions.js ***!
+  \************************************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "../node_modules/@babel/runtime/helpers/extends.js");
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/objectWithoutProperties */ "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! clsx */ "../node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/withStyles */ "../node_modules/@material-ui/core/esm/styles/withStyles.js");
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Button */ "../node_modules/@material-ui/core/esm/Button/index.js");
+
+
+
+
+
+
+ // So we don't have any override priority issue.
+
+var styles = {
+  /* Styles applied to the root element. */
+  root: {
+    display: 'flex',
+    alignItems: 'center',
+    padding: 8
+  },
+
+  /* Styles applied to the root element if `disableSpacing={false}`. */
+  spacing: {
+    '& > * + *': {
+      marginLeft: 8
+    }
+  }
+};
+var CardActions = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function CardActions(props, ref) {
+  var _props$disableSpacing = props.disableSpacing,
+      disableSpacing = _props$disableSpacing === void 0 ? false : _props$disableSpacing,
+      classes = props.classes,
+      className = props.className,
+      other = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default()(props, ["disableSpacing", "classes", "className"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.root, className, !disableSpacing && classes.spacing),
+    ref: ref
+  }, other));
+});
+ true ? CardActions.propTypes = {
+  /**
+   * The content of the component.
+   */
+  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * If `true`, the actions do not have additional margin.
+   */
+  disableSpacing: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool
+} : undefined;
+/* harmony default export */ __webpack_exports__["default"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_5__["default"])(styles, {
+  name: 'MuiCardActions'
+})(CardActions));
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/CardActions/index.js":
+/*!******************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/CardActions/index.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CardActions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CardActions */ "../node_modules/@material-ui/core/esm/CardActions/CardActions.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _CardActions__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/CardContent/CardContent.js":
+/*!************************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/CardContent/CardContent.js ***!
+  \************************************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "../node_modules/@babel/runtime/helpers/extends.js");
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/objectWithoutProperties */ "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! clsx */ "../node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/withStyles */ "../node_modules/@material-ui/core/esm/styles/withStyles.js");
+
+
+
+
+
+
+var styles = {
+  /* Styles applied to the root element. */
+  root: {
+    padding: 16,
+    '&:last-child': {
+      paddingBottom: 24
+    }
+  }
+};
+var CardContent = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function CardContent(props, ref) {
+  var classes = props.classes,
+      className = props.className,
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      other = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default()(props, ["classes", "className", "component"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Component, _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.root, className),
+    ref: ref
+  }, other));
+});
+ true ? CardContent.propTypes = {
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * The component used for the root node.
+   * Either a string to use a DOM element or a component.
+   */
+  component: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.elementType
+} : undefined;
+/* harmony default export */ __webpack_exports__["default"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_5__["default"])(styles, {
+  name: 'MuiCardContent'
+})(CardContent));
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/CardContent/index.js":
+/*!******************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/CardContent/index.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CardContent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CardContent */ "../node_modules/@material-ui/core/esm/CardContent/CardContent.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _CardContent__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/CardMedia/CardMedia.js":
+/*!********************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/CardMedia/CardMedia.js ***!
+  \********************************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "../node_modules/@babel/runtime/helpers/extends.js");
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/objectWithoutProperties */ "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! clsx */ "../node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var warning__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! warning */ "../node_modules/warning/warning.js");
+/* harmony import */ var warning__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(warning__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/withStyles */ "../node_modules/@material-ui/core/esm/styles/withStyles.js");
+
+
+
+
+
+
+
+var styles = {
+  /* Styles applied to the root element. */
+  root: {
+    display: 'block',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center'
+  },
+
+  /* Styles applied to the root element if `component="video, audio, picture, iframe, or img"`. */
+  media: {
+    width: '100%',
+    // ⚠️ object-fit is not supported by IE 11.
+    objectFit: 'cover'
+  }
+};
+var MEDIA_COMPONENTS = ['video', 'audio', 'picture', 'iframe', 'img'];
+var CardMedia = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function CardMedia(props, ref) {
+  var classes = props.classes,
+      className = props.className,
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      image = props.image,
+      src = props.src,
+      style = props.style,
+      other = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default()(props, ["classes", "className", "component", "image", "src", "style"]);
+
+   true ? warning__WEBPACK_IMPORTED_MODULE_5___default()(Boolean(image || src), 'Material-UI: either `image` or `src` property must be specified.') : undefined;
+  var isMediaComponent = MEDIA_COMPONENTS.indexOf(Component) !== -1;
+  var composedStyle = !isMediaComponent && image ? _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({
+    backgroundImage: "url(\"".concat(image, "\")")
+  }, style) : style;
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Component, _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.root, className, isMediaComponent && classes.media),
+    ref: ref,
+    style: composedStyle,
+    src: isMediaComponent ? image || src : undefined
+  }, other));
+});
+ true ? CardMedia.propTypes = {
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * Component for rendering image.
+   * Either a string to use a DOM element or a component.
+   */
+  component: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.elementType,
+
+  /**
+   * Image to be displayed as a background image.
+   * Either `image` or `src` prop must be specified.
+   * Note that caller must specify height otherwise the image will not be visible.
+   */
+  image: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * An alias for `image` property.
+   * Available only with media components.
+   * Media components: `video`, `audio`, `picture`, `iframe`, `img`.
+   */
+  src: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * @ignore
+   */
+  style: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object
+} : undefined;
+/* harmony default export */ __webpack_exports__["default"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_6__["default"])(styles, {
+  name: 'MuiCardMedia'
+})(CardMedia));
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/CardMedia/index.js":
+/*!****************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/CardMedia/index.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CardMedia__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CardMedia */ "../node_modules/@material-ui/core/esm/CardMedia/CardMedia.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _CardMedia__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/Container/Container.js":
+/*!********************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/Container/Container.js ***!
+  \********************************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "../node_modules/@babel/runtime/helpers/extends.js");
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/objectWithoutProperties */ "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "../node_modules/@babel/runtime/helpers/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! clsx */ "../node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles */ "../node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils */ "../node_modules/@material-ui/core/esm/utils/index.js");
+
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  var _root;
+
+  return {
+    /* Styles applied to the root element. */
+    root: (_root = {
+      width: '100%',
+      marginLeft: 'auto',
+      boxSizing: 'border-box',
+      marginRight: 'auto',
+      paddingLeft: theme.spacing(2),
+      paddingRight: theme.spacing(2)
+    }, _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_root, theme.breakpoints.up('sm'), {
+      paddingLeft: theme.spacing(3),
+      paddingRight: theme.spacing(3)
+    }), _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_root, theme.breakpoints.up('md'), {
+      paddingLeft: theme.spacing(4),
+      paddingRight: theme.spacing(4)
+    }), _root),
+
+    /* Styles applied to the root element if `fixed={true}`. */
+    fixed: Object.keys(theme.breakpoints.values).reduce(function (acc, breakpoint) {
+      var value = theme.breakpoints.values[breakpoint];
+
+      if (value !== 0) {
+        acc[theme.breakpoints.up(breakpoint)] = {
+          maxWidth: value
+        };
+      }
+
+      return acc;
+    }, {}),
+
+    /* Styles applied to the root element if `maxWidth="xs"`. */
+    maxWidthXs: _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()({}, theme.breakpoints.up('xs'), {
+      maxWidth: Math.max(theme.breakpoints.values.xs, 444)
+    }),
+
+    /* Styles applied to the root element if `maxWidth="sm"`. */
+    maxWidthSm: _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()({}, theme.breakpoints.up('sm'), {
+      maxWidth: theme.breakpoints.values.sm
+    }),
+
+    /* Styles applied to the root element if `maxWidth="md"`. */
+    maxWidthMd: _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()({}, theme.breakpoints.up('md'), {
+      maxWidth: theme.breakpoints.values.md
+    }),
+
+    /* Styles applied to the root element if `maxWidth="lg"`. */
+    maxWidthLg: _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()({}, theme.breakpoints.up('lg'), {
+      maxWidth: theme.breakpoints.values.lg
+    }),
+
+    /* Styles applied to the root element if `maxWidth="xl"`. */
+    maxWidthXl: _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()({}, theme.breakpoints.up('xl'), {
+      maxWidth: theme.breakpoints.values.xl
+    })
+  };
+};
+var Container = react__WEBPACK_IMPORTED_MODULE_3___default.a.forwardRef(function Container(props, ref) {
+  var classes = props.classes,
+      className = props.className,
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      _props$fixed = props.fixed,
+      fixed = _props$fixed === void 0 ? false : _props$fixed,
+      _props$maxWidth = props.maxWidth,
+      maxWidth = _props$maxWidth === void 0 ? 'lg' : _props$maxWidth,
+      other = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default()(props, ["classes", "className", "component", "fixed", "maxWidth"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Component, _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_5__["default"])(classes.root, className, fixed && classes.fixed, maxWidth !== false && classes["maxWidth".concat(Object(_utils__WEBPACK_IMPORTED_MODULE_7__["capitalize"])(String(maxWidth)))]),
+    ref: ref
+  }, other));
+});
+ true ? Container.propTypes = {
+  children: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.node.isRequired,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
+
+  /**
+   * The component used for the root node.
+   * Either a string to use a DOM element or a component.
+   */
+  component: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.elementType,
+
+  /**
+   * Set the max-width to match the min-width of the current breakpoint.
+   * This is useful if you'd prefer to design for a fixed set of sizes
+   * instead of trying to accommodate a fully fluid viewport.
+   * It's fluid by default.
+   */
+  fixed: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
+
+  /**
+   * Determine the max-width of the container.
+   * The container width grows with the size of the screen.
+   * Set to `false` to disable `maxWidth`.
+   */
+  maxWidth: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOf(['xs', 'sm', 'md', 'lg', 'xl', false])
+} : undefined;
+/* harmony default export */ __webpack_exports__["default"] = (Object(_styles__WEBPACK_IMPORTED_MODULE_6__["withStyles"])(styles, {
+  name: 'MuiContainer'
+})(Container));
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/Container/index.js":
+/*!****************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/Container/index.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Container__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Container */ "../node_modules/@material-ui/core/esm/Container/Container.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Container__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/CssBaseline/CssBaseline.js":
+/*!************************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/CssBaseline/CssBaseline.js ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "../node_modules/@babel/runtime/helpers/extends.js");
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles */ "../node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _material_ui_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/utils */ "../node_modules/@material-ui/utils/esm/index.js");
+
+
+
+
+
+var useStyles = Object(_styles__WEBPACK_IMPORTED_MODULE_3__["makeStyles"])(function (theme) {
+  return {
+    '@global': {
+      html: {
+        WebkitFontSmoothing: 'antialiased',
+        // Antialiasing.
+        MozOsxFontSmoothing: 'grayscale',
+        // Antialiasing.
+        // Change from `box-sizing: content-box` so that `width`
+        // is not affected by `padding` or `border`.
+        boxSizing: 'border-box'
+      },
+      '*, *::before, *::after': {
+        boxSizing: 'inherit'
+      },
+      'strong, b': {
+        fontWeight: 'bolder'
+      },
+      body: _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({
+        margin: 0,
+        // Remove the margin in all browsers.
+        color: theme.palette.text.primary
+      }, theme.typography.body2, {
+        backgroundColor: theme.palette.background.default,
+        '@media print': {
+          // Save printer ink.
+          backgroundColor: theme.palette.common.white
+        }
+      })
+    }
+  };
+}, {
+  name: 'MuiCssBaseline'
+});
+/**
+ * Kickstart an elegant, consistent, and simple baseline to build upon.
+ */
+
+function CssBaseline(props) {
+  var _props$children = props.children,
+      children = _props$children === void 0 ? null : _props$children;
+  useStyles();
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, children);
+}
+
+ true ? CssBaseline.propTypes = {
+  /**
+   * You can wrap a node.
+   */
+  children: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.node
+} : undefined;
+
+if (true) {
+  // eslint-disable-next-line
+  CssBaseline['propTypes' + ''] = Object(_material_ui_utils__WEBPACK_IMPORTED_MODULE_4__["exactProp"])(CssBaseline.propTypes);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (CssBaseline);
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/CssBaseline/index.js":
+/*!******************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/CssBaseline/index.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CssBaseline__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CssBaseline */ "../node_modules/@material-ui/core/esm/CssBaseline/CssBaseline.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _CssBaseline__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/Grid/Grid.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/Grid/Grid.js ***!
+  \**********************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/objectWithoutProperties */ "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "../node_modules/@babel/runtime/helpers/extends.js");
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! clsx */ "../node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/withStyles */ "../node_modules/@material-ui/core/esm/styles/withStyles.js");
+/* harmony import */ var _styles_createBreakpoints__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/createBreakpoints */ "../node_modules/@material-ui/core/esm/styles/createBreakpoints.js");
+/* harmony import */ var _utils_requirePropFactory__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/requirePropFactory */ "../node_modules/@material-ui/core/esm/utils/requirePropFactory.js");
+
+
+// A grid component using the following libs as inspiration.
+//
+// For the implementation:
+// - https://getbootstrap.com/docs/4.3/layout/grid/
+// - https://github.com/kristoferjoseph/flexboxgrid/blob/master/src/css/flexboxgrid.css
+// - https://github.com/roylee0704/react-flexbox-grid
+// - https://material.angularjs.org/latest/layout/introduction
+//
+// Follow this flexbox Guide to better understand the underlying model:
+// - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+
+
+
+
+var SPACINGS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var GRID_SIZES = ['auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+function generateGrid(globalStyles, theme, breakpoint) {
+  var styles = {};
+  GRID_SIZES.forEach(function (size) {
+    var key = "grid-".concat(breakpoint, "-").concat(size);
+
+    if (size === true) {
+      // For the auto layouting
+      styles[key] = {
+        flexBasis: 0,
+        flexGrow: 1,
+        maxWidth: '100%'
+      };
+      return;
+    }
+
+    if (size === 'auto') {
+      styles[key] = {
+        flexBasis: 'auto',
+        flexGrow: 0,
+        maxWidth: 'none'
+      };
+      return;
+    } // Keep 7 significant numbers.
+
+
+    var width = "".concat(Math.round(size / 12 * 10e7) / 10e5, "%"); // Close to the bootstrap implementation:
+    // https://github.com/twbs/bootstrap/blob/8fccaa2439e97ec72a4b7dc42ccc1f649790adb0/scss/mixins/_grid.scss#L41
+
+    styles[key] = {
+      flexBasis: width,
+      flexGrow: 0,
+      maxWidth: width
+    };
+  }); // No need for a media query for the first size.
+
+  if (breakpoint === 'xs') {
+    _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default()(globalStyles, styles);
+  } else {
+    globalStyles[theme.breakpoints.up(breakpoint)] = styles;
+  }
+}
+
+function generateGutter(theme, breakpoint) {
+  var styles = {};
+  SPACINGS.forEach(function (spacing) {
+    var themeSpacing = theme.spacing(spacing);
+
+    if (themeSpacing === 0) {
+      return;
+    }
+
+    styles["spacing-".concat(breakpoint, "-").concat(spacing)] = {
+      margin: -themeSpacing / 2,
+      width: "calc(100% + ".concat(themeSpacing, "px)"),
+      '& > $item': {
+        padding: themeSpacing / 2
+      }
+    };
+  });
+  return styles;
+} // Default CSS values
+// flex: '0 1 auto',
+// flexDirection: 'row',
+// alignItems: 'flex-start',
+// flexWrap: 'nowrap',
+// justifyContent: 'flex-start',
+
+
+var styles = function styles(theme) {
+  return _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default()({
+    /* Styles applied to the root element */
+    root: {},
+
+    /* Styles applied to the root element if `container={true}`. */
+    container: {
+      boxSizing: 'border-box',
+      display: 'flex',
+      flexWrap: 'wrap',
+      width: '100%'
+    },
+
+    /* Styles applied to the root element if `item={true}`. */
+    item: {
+      boxSizing: 'border-box',
+      margin: '0' // For instance, it's useful when used with a `figure` element.
+
+    },
+
+    /* Styles applied to the root element if `zeroMinWidth={true}`. */
+    zeroMinWidth: {
+      minWidth: 0
+    },
+
+    /* Styles applied to the root element if `direction="column"`. */
+    'direction-xs-column': {
+      flexDirection: 'column'
+    },
+
+    /* Styles applied to the root element if `direction="column-reverse"`. */
+    'direction-xs-column-reverse': {
+      flexDirection: 'column-reverse'
+    },
+
+    /* Styles applied to the root element if `direction="rwo-reverse"`. */
+    'direction-xs-row-reverse': {
+      flexDirection: 'row-reverse'
+    },
+
+    /* Styles applied to the root element if `wrap="nowrap"`. */
+    'wrap-xs-nowrap': {
+      flexWrap: 'nowrap'
+    },
+
+    /* Styles applied to the root element if `wrap="reverse"`. */
+    'wrap-xs-wrap-reverse': {
+      flexWrap: 'wrap-reverse'
+    },
+
+    /* Styles applied to the root element if `alignItems="center"`. */
+    'align-items-xs-center': {
+      alignItems: 'center'
+    },
+
+    /* Styles applied to the root element if `alignItems="flex-start"`. */
+    'align-items-xs-flex-start': {
+      alignItems: 'flex-start'
+    },
+
+    /* Styles applied to the root element if `alignItems="flex-end"`. */
+    'align-items-xs-flex-end': {
+      alignItems: 'flex-end'
+    },
+
+    /* Styles applied to the root element if `alignItems="baseline"`. */
+    'align-items-xs-baseline': {
+      alignItems: 'baseline'
+    },
+
+    /* Styles applied to the root element if `alignContent="center"`. */
+    'align-content-xs-center': {
+      alignContent: 'center'
+    },
+
+    /* Styles applied to the root element if `alignContent="flex-start"`. */
+    'align-content-xs-flex-start': {
+      alignContent: 'flex-start'
+    },
+
+    /* Styles applied to the root element if `alignContent="flex-end"`. */
+    'align-content-xs-flex-end': {
+      alignContent: 'flex-end'
+    },
+
+    /* Styles applied to the root element if `alignContent="space-between"`. */
+    'align-content-xs-space-between': {
+      alignContent: 'space-between'
+    },
+
+    /* Styles applied to the root element if `alignContent="space-around"`. */
+    'align-content-xs-space-around': {
+      alignContent: 'space-around'
+    },
+
+    /* Styles applied to the root element if `justify="center"`. */
+    'justify-xs-center': {
+      justifyContent: 'center'
+    },
+
+    /* Styles applied to the root element if `justify="flex-end"`. */
+    'justify-xs-flex-end': {
+      justifyContent: 'flex-end'
+    },
+
+    /* Styles applied to the root element if `justify="space-between"`. */
+    'justify-xs-space-between': {
+      justifyContent: 'space-between'
+    },
+
+    /* Styles applied to the root element if `justify="space-around"`. */
+    'justify-xs-space-around': {
+      justifyContent: 'space-around'
+    },
+
+    /* Styles applied to the root element if `justify="space-evenly"`. */
+    'justify-xs-space-evenly': {
+      justifyContent: 'space-evenly'
+    }
+  }, generateGutter(theme, 'xs'), _styles_createBreakpoints__WEBPACK_IMPORTED_MODULE_6__["keys"].reduce(function (accumulator, key) {
+    // Use side effect over immutability for better performance.
+    generateGrid(accumulator, theme, key);
+    return accumulator;
+  }, {}));
+};
+var Grid = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function (props, ref) {
+  var _props$alignContent = props.alignContent,
+      alignContent = _props$alignContent === void 0 ? 'stretch' : _props$alignContent,
+      _props$alignItems = props.alignItems,
+      alignItems = _props$alignItems === void 0 ? 'stretch' : _props$alignItems,
+      classes = props.classes,
+      classNameProp = props.className,
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      _props$container = props.container,
+      container = _props$container === void 0 ? false : _props$container,
+      _props$direction = props.direction,
+      direction = _props$direction === void 0 ? 'row' : _props$direction,
+      _props$item = props.item,
+      item = _props$item === void 0 ? false : _props$item,
+      _props$justify = props.justify,
+      justify = _props$justify === void 0 ? 'flex-start' : _props$justify,
+      _props$lg = props.lg,
+      lg = _props$lg === void 0 ? false : _props$lg,
+      _props$md = props.md,
+      md = _props$md === void 0 ? false : _props$md,
+      _props$sm = props.sm,
+      sm = _props$sm === void 0 ? false : _props$sm,
+      _props$spacing = props.spacing,
+      spacing = _props$spacing === void 0 ? 0 : _props$spacing,
+      _props$wrap = props.wrap,
+      wrap = _props$wrap === void 0 ? 'wrap' : _props$wrap,
+      _props$xl = props.xl,
+      xl = _props$xl === void 0 ? false : _props$xl,
+      _props$xs = props.xs,
+      xs = _props$xs === void 0 ? false : _props$xs,
+      _props$zeroMinWidth = props.zeroMinWidth,
+      zeroMinWidth = _props$zeroMinWidth === void 0 ? false : _props$zeroMinWidth,
+      other = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default()(props, ["alignContent", "alignItems", "classes", "className", "component", "container", "direction", "item", "justify", "lg", "md", "sm", "spacing", "wrap", "xl", "xs", "zeroMinWidth"]);
+
+  var className = Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.root, classNameProp, container && [classes.container, spacing !== 0 && classes["spacing-xs-".concat(String(spacing))]], item && classes.item, zeroMinWidth && classes.zeroMinWidth, direction !== 'row' && classes["direction-xs-".concat(String(direction))], wrap !== 'wrap' && classes["wrap-xs-".concat(String(wrap))], alignItems !== 'stretch' && classes["align-items-xs-".concat(String(alignItems))], alignContent !== 'stretch' && classes["align-content-xs-".concat(String(alignContent))], justify !== 'flex-start' && classes["justify-xs-".concat(String(justify))], xs !== false && classes["grid-xs-".concat(String(xs))], sm !== false && classes["grid-sm-".concat(String(sm))], md !== false && classes["grid-md-".concat(String(md))], lg !== false && classes["grid-lg-".concat(String(lg))], xl !== false && classes["grid-xl-".concat(String(xl))]);
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Component, _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default()({
+    className: className,
+    ref: ref
+  }, other));
+});
+
+if (true) {
+  // can't use named function expression since the function body references `Grid`
+  // which would point to the render function instead of the actual component
+  Grid.displayName = 'ForwardRef(Grid)';
+}
+
+ true ? Grid.propTypes = {
+  /**
+   * Defines the `align-content` style property.
+   * It's applied for all screen sizes.
+   */
+  alignContent: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['stretch', 'center', 'flex-start', 'flex-end', 'space-between', 'space-around']),
+
+  /**
+   * Defines the `align-items` style property.
+   * It's applied for all screen sizes.
+   */
+  alignItems: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['flex-start', 'center', 'flex-end', 'stretch', 'baseline']),
+
+  /**
+   * The content of the component.
+   */
+  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * The component used for the root node.
+   * Either a string to use a DOM element or a component.
+   */
+  component: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.elementType,
+
+  /**
+   * If `true`, the component will have the flex *container* behavior.
+   * You should be wrapping *items* with a *container*.
+   */
+  container: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+
+  /**
+   * Defines the `flex-direction` style property.
+   * It is applied for all screen sizes.
+   */
+  direction: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['row', 'row-reverse', 'column', 'column-reverse']),
+
+  /**
+   * If `true`, the component will have the flex *item* behavior.
+   * You should be wrapping *items* with a *container*.
+   */
+  item: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+
+  /**
+   * Defines the `justify-content` style property.
+   * It is applied for all screen sizes.
+   */
+  justify: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['flex-start', 'center', 'flex-end', 'space-between', 'space-around', 'space-evenly']),
+
+  /**
+   * Defines the number of grids the component is going to use.
+   * It's applied for the `lg` breakpoint and wider screens if not overridden.
+   */
+  lg: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+
+  /**
+   * Defines the number of grids the component is going to use.
+   * It's applied for the `md` breakpoint and wider screens if not overridden.
+   */
+  md: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+
+  /**
+   * Defines the number of grids the component is going to use.
+   * It's applied for the `sm` breakpoint and wider screens if not overridden.
+   */
+  sm: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+
+  /**
+   * Defines the space between the type `item` component.
+   * It can only be used on a type `container` component.
+   */
+  spacing: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(SPACINGS),
+
+  /**
+   * Defines the `flex-wrap` style property.
+   * It's applied for all screen sizes.
+   */
+  wrap: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['nowrap', 'wrap', 'wrap-reverse']),
+
+  /**
+   * Defines the number of grids the component is going to use.
+   * It's applied for the `xl` breakpoint and wider screens.
+   */
+  xl: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+
+  /**
+   * Defines the number of grids the component is going to use.
+   * It's applied for all the screen sizes with the lowest priority.
+   */
+  xs: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+
+  /**
+   * If `true`, it sets `min-width: 0` on the item.
+   * Refer to the limitations section of the documentation to better understand the use case.
+   */
+  zeroMinWidth: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool
+} : undefined;
+var StyledGrid = Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_5__["default"])(styles, {
+  name: 'MuiGrid'
+})(Grid);
+
+if (true) {
+  var requireProp = Object(_utils_requirePropFactory__WEBPACK_IMPORTED_MODULE_7__["default"])('Grid');
+  StyledGrid.propTypes = _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default()({}, StyledGrid.propTypes, {
+    alignContent: requireProp('container'),
+    alignItems: requireProp('container'),
+    direction: requireProp('container'),
+    justify: requireProp('container'),
+    lg: requireProp('item'),
+    md: requireProp('item'),
+    sm: requireProp('item'),
+    spacing: requireProp('container'),
+    wrap: requireProp('container'),
+    xs: requireProp('item'),
+    zeroMinWidth: requireProp('item')
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (StyledGrid);
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/Grid/index.js":
+/*!***********************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/Grid/index.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Grid__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Grid */ "../node_modules/@material-ui/core/esm/Grid/Grid.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Grid__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
 /***/ "../node_modules/@material-ui/core/esm/IconButton/IconButton.js":
 /*!**********************************************************************!*\
   !*** ../node_modules/@material-ui/core/esm/IconButton/IconButton.js ***!
@@ -2584,6 +3678,235 @@ var IconButton = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(functio
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _IconButton__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./IconButton */ "../node_modules/@material-ui/core/esm/IconButton/IconButton.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _IconButton__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/Link/Link.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/Link/Link.js ***!
+  \**********************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "../node_modules/@babel/runtime/helpers/extends.js");
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "../node_modules/@babel/runtime/helpers/slicedToArray.js");
+/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/objectWithoutProperties */ "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! clsx */ "../node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/helpers */ "../node_modules/@material-ui/core/esm/utils/helpers.js");
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/withStyles */ "../node_modules/@material-ui/core/esm/styles/withStyles.js");
+/* harmony import */ var _utils_focusVisible__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../utils/focusVisible */ "../node_modules/@material-ui/core/esm/utils/focusVisible.js");
+/* harmony import */ var _utils_reactHelpers__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../utils/reactHelpers */ "../node_modules/@material-ui/core/esm/utils/reactHelpers.js");
+/* harmony import */ var _Typography__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Typography */ "../node_modules/@material-ui/core/esm/Typography/index.js");
+
+
+
+
+
+
+
+
+
+
+
+var styles = {
+  /* Styles applied to the root element. */
+  root: {},
+
+  /* Styles applied to the root element if `underline="none"`. */
+  underlineNone: {
+    textDecoration: 'none'
+  },
+
+  /* Styles applied to the root element if `underline="hover"`. */
+  underlineHover: {
+    textDecoration: 'none',
+    '&:hover': {
+      textDecoration: 'underline'
+    }
+  },
+
+  /* Styles applied to the root element if `underline="always"`. */
+  underlineAlways: {
+    textDecoration: 'underline'
+  },
+  // Same reset as ButtonBase.root
+
+  /* Styles applied to the root element if `component="button"`. */
+  button: {
+    position: 'relative',
+    // Remove grey highlight
+    WebkitTapHighlightColor: 'transparent',
+    backgroundColor: 'transparent',
+    // Reset default value
+    // We disable the focus ring for mouse, touch and keyboard users.
+    outline: 'none',
+    border: 0,
+    margin: 0,
+    // Remove the margin in Safari
+    borderRadius: 0,
+    padding: 0,
+    // Remove the padding in Firefox
+    cursor: 'pointer',
+    userSelect: 'none',
+    verticalAlign: 'middle',
+    '-moz-appearance': 'none',
+    // Reset
+    '-webkit-appearance': 'none',
+    // Reset
+    '&::-moz-focus-inner': {
+      borderStyle: 'none' // Remove Firefox dotted outline.
+
+    },
+    '&$focusVisible': {
+      outline: 'auto'
+    }
+  },
+
+  /* Pseudo-class applied to the root element if the link is keyboard focused. */
+  focusVisible: {}
+};
+var Link = react__WEBPACK_IMPORTED_MODULE_3___default.a.forwardRef(function Link(props, ref) {
+  var classes = props.classes,
+      className = props.className,
+      _props$color = props.color,
+      color = _props$color === void 0 ? 'primary' : _props$color,
+      _props$component = props.component,
+      component = _props$component === void 0 ? 'a' : _props$component,
+      onBlur = props.onBlur,
+      onFocus = props.onFocus,
+      TypographyClasses = props.TypographyClasses,
+      _props$underline = props.underline,
+      underline = _props$underline === void 0 ? 'hover' : _props$underline,
+      _props$variant = props.variant,
+      variant = _props$variant === void 0 ? 'inherit' : _props$variant,
+      other = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2___default()(props, ["classes", "className", "color", "component", "onBlur", "onFocus", "TypographyClasses", "underline", "variant"]);
+
+  var _useIsFocusVisible = Object(_utils_focusVisible__WEBPACK_IMPORTED_MODULE_8__["useIsFocusVisible"])(),
+      isFocusVisible = _useIsFocusVisible.isFocusVisible,
+      onBlurVisible = _useIsFocusVisible.onBlurVisible,
+      focusVisibleRef = _useIsFocusVisible.ref;
+
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_3___default.a.useState(false),
+      _React$useState2 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_1___default()(_React$useState, 2),
+      focusVisible = _React$useState2[0],
+      setFocusVisible = _React$useState2[1];
+
+  var handlerRef = Object(_utils_reactHelpers__WEBPACK_IMPORTED_MODULE_9__["useForkRef"])(ref, focusVisibleRef);
+
+  var handleBlur = function handleBlur(event) {
+    if (focusVisible) {
+      onBlurVisible();
+      setFocusVisible(false);
+    }
+
+    if (onBlur) {
+      onBlur(event);
+    }
+  };
+
+  var handleFocus = function handleFocus(event) {
+    if (isFocusVisible(event)) {
+      setFocusVisible(true);
+    }
+
+    if (onFocus) {
+      onFocus(event);
+    }
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_10__["default"], _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_5__["default"])(classes.root, classes["underline".concat(Object(_utils_helpers__WEBPACK_IMPORTED_MODULE_6__["capitalize"])(underline))], className, component === 'button' && classes.button, focusVisible && classes.focusVisible),
+    classes: TypographyClasses,
+    color: color,
+    component: component,
+    onBlur: handleBlur,
+    onFocus: handleFocus,
+    ref: handlerRef,
+    variant: variant
+  }, other));
+});
+ true ? Link.propTypes = {
+  /**
+   * The content of the link.
+   */
+  children: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.node.isRequired,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
+
+  /**
+   * The color of the link.
+   */
+  color: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOf(['default', 'error', 'inherit', 'primary', 'secondary', 'textPrimary', 'textSecondary']),
+
+  /**
+   * The component used for the root node.
+   * Either a string to use a DOM element or a component.
+   */
+  component: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.elementType,
+
+  /**
+   * @ignore
+   */
+  onBlur: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
+
+  /**
+   * @ignore
+   */
+  onFocus: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
+
+  /**
+   * `classes` property applied to the [`Typography`](/api/typography/) element.
+   */
+  TypographyClasses: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object,
+
+  /**
+   *  Controls when the link should have an underline.
+   */
+  underline: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOf(['none', 'hover', 'always']),
+
+  /**
+   * Applies the theme typography styles.
+   */
+  variant: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string
+} : undefined;
+/* harmony default export */ __webpack_exports__["default"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_7__["default"])(styles, {
+  name: 'MuiLink'
+})(Link));
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/Link/index.js":
+/*!***********************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/Link/index.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Link__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Link */ "../node_modules/@material-ui/core/esm/Link/Link.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Link__WEBPACK_IMPORTED_MODULE_0__["default"]; });
 
 
 
@@ -4691,7 +6014,7 @@ var defaultTheme = Object(_createMuiTheme__WEBPACK_IMPORTED_MODULE_0__["default"
 /*!*************************************************************!*\
   !*** ../node_modules/@material-ui/core/esm/styles/index.js ***!
   \*************************************************************/
-/*! exports provided: createMuiTheme, createStyles, makeStyles, MuiThemeProvider, responsiveFontSizes, styled, useTheme, withStyles, withTheme, hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, easing, duration, formatMs, isString, isNumber */
+/*! exports provided: hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, createMuiTheme, createStyles, makeStyles, MuiThemeProvider, responsiveFontSizes, styled, easing, duration, formatMs, isString, isNumber, useTheme, withStyles, withTheme */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5155,6 +6478,34 @@ var zIndex = {
 
 /***/ }),
 
+/***/ "../node_modules/@material-ui/core/esm/utils/deprecatedPropType.js":
+/*!*************************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/utils/deprecatedPropType.js ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function deprecatedPropType(validator, reason) {
+  if (false) {}
+
+  return function (props, propName, componentName, location, propFullName) {
+    var componentNameSafe = componentName || '<<anonymous>>';
+    var propFullNameSafe = propFullName || propName;
+
+    if (typeof props[propName] !== 'undefined') {
+      return new Error("The ".concat(location, " `").concat(propFullNameSafe, "` of ") + "`".concat(componentNameSafe, "` is deprecated. ").concat(reason));
+    }
+
+    return null;
+  };
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (deprecatedPropType);
+
+/***/ }),
+
 /***/ "../node_modules/@material-ui/core/esm/utils/focusVisible.js":
 /*!*******************************************************************!*\
   !*** ../node_modules/@material-ui/core/esm/utils/focusVisible.js ***!
@@ -5372,6 +6723,99 @@ function createChainedFunction() {
 
 /***/ }),
 
+/***/ "../node_modules/@material-ui/core/esm/utils/index.js":
+/*!************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/utils/index.js ***!
+  \************************************************************/
+/*! exports provided: deprecatedPropType, capitalize, createChainedFunction, isMuiElement, setRef, useForkRef, useIsFocusVisible, ownerDocument, ownerWindow, requirePropFactory, unsupportedProp, withForwardedRef */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _deprecatedPropType__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./deprecatedPropType */ "../node_modules/@material-ui/core/esm/utils/deprecatedPropType.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "deprecatedPropType", function() { return _deprecatedPropType__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./helpers */ "../node_modules/@material-ui/core/esm/utils/helpers.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "capitalize", function() { return _helpers__WEBPACK_IMPORTED_MODULE_1__["capitalize"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createChainedFunction", function() { return _helpers__WEBPACK_IMPORTED_MODULE_1__["createChainedFunction"]; });
+
+/* harmony import */ var _reactHelpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./reactHelpers */ "../node_modules/@material-ui/core/esm/utils/reactHelpers.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "isMuiElement", function() { return _reactHelpers__WEBPACK_IMPORTED_MODULE_2__["isMuiElement"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "setRef", function() { return _reactHelpers__WEBPACK_IMPORTED_MODULE_2__["setRef"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useForkRef", function() { return _reactHelpers__WEBPACK_IMPORTED_MODULE_2__["useForkRef"]; });
+
+/* harmony import */ var _focusVisible__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./focusVisible */ "../node_modules/@material-ui/core/esm/utils/focusVisible.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useIsFocusVisible", function() { return _focusVisible__WEBPACK_IMPORTED_MODULE_3__["useIsFocusVisible"]; });
+
+/* harmony import */ var _ownerDocument__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ownerDocument */ "../node_modules/@material-ui/core/esm/utils/ownerDocument.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ownerDocument", function() { return _ownerDocument__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+
+/* harmony import */ var _ownerWindow__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ownerWindow */ "../node_modules/@material-ui/core/esm/utils/ownerWindow.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ownerWindow", function() { return _ownerWindow__WEBPACK_IMPORTED_MODULE_5__["default"]; });
+
+/* harmony import */ var _requirePropFactory__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./requirePropFactory */ "../node_modules/@material-ui/core/esm/utils/requirePropFactory.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "requirePropFactory", function() { return _requirePropFactory__WEBPACK_IMPORTED_MODULE_6__["default"]; });
+
+/* harmony import */ var _unsupportedProp__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./unsupportedProp */ "../node_modules/@material-ui/core/esm/utils/unsupportedProp.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "unsupportedProp", function() { return _unsupportedProp__WEBPACK_IMPORTED_MODULE_7__["default"]; });
+
+/* harmony import */ var _withForwardedRef__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./withForwardedRef */ "../node_modules/@material-ui/core/esm/utils/withForwardedRef.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "withForwardedRef", function() { return _withForwardedRef__WEBPACK_IMPORTED_MODULE_8__["default"]; });
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/utils/ownerDocument.js":
+/*!********************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/utils/ownerDocument.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function ownerDocument(node) {
+  return node && node.ownerDocument || document;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ownerDocument);
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/utils/ownerWindow.js":
+/*!******************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/utils/ownerWindow.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ownerDocument__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ownerDocument */ "../node_modules/@material-ui/core/esm/utils/ownerDocument.js");
+
+
+function ownerWindow(node) {
+  var fallback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : window;
+  var doc = Object(_ownerDocument__WEBPACK_IMPORTED_MODULE_0__["default"])(node);
+  return doc.defaultView || doc.parentView || fallback;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ownerWindow);
+
+/***/ }),
+
 /***/ "../node_modules/@material-ui/core/esm/utils/reactHelpers.js":
 /*!*******************************************************************!*\
   !*** ../node_modules/@material-ui/core/esm/utils/reactHelpers.js ***!
@@ -5413,6 +6857,119 @@ function useForkRef(refA, refB) {
       setRef(refB, refValue);
     };
   }, [refA, refB]);
+}
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/utils/requirePropFactory.js":
+/*!*************************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/utils/requirePropFactory.js ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function requirePropFactory(componentNameInError) {
+  if (false) {}
+
+  var requireProp = function requireProp(requiredProp) {
+    return function (props, propName, componentName, location, propFullName) {
+      var propFullNameSafe = propFullName || propName;
+
+      if (typeof props[propName] !== 'undefined' && !props[requiredProp]) {
+        return new Error("The property `".concat(propFullNameSafe, "` of ") + "`".concat(componentNameInError, "` must be used on `").concat(requiredProp, "`."));
+      }
+
+      return null;
+    };
+  };
+
+  return requireProp;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (requirePropFactory);
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/utils/unsupportedProp.js":
+/*!**********************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/utils/unsupportedProp.js ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function unsupportedProp(props, propName, componentName, location, propFullName) {
+  if (false) {}
+
+  var propFullNameSafe = propFullName || propName;
+
+  if (typeof props[propName] !== 'undefined') {
+    return new Error("The property `".concat(propFullNameSafe, "` is not supported. Please remove it."));
+  }
+
+  return null;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (unsupportedProp);
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/core/esm/utils/withForwardedRef.js":
+/*!***********************************************************************!*\
+  !*** ../node_modules/@material-ui/core/esm/utils/withForwardedRef.js ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return withForwardedRef; });
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "../node_modules/@babel/runtime/helpers/extends.js");
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! hoist-non-react-statics */ "../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js");
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/utils */ "../node_modules/@material-ui/utils/esm/index.js");
+
+
+
+
+/**
+ * Enables ref forwarding on a given component that uses `innerRef` to forward refs
+ * This is useful for component implementations that predate `forwardRef` and
+ * used other props to forward refs.
+ *
+ * Instead of `<Component innerRef={ref} />` you can write
+ * `<withForwardRef(Component) ref={ref} />`.
+ *
+ * This HOC does not handle prop collision. In
+ * `<withForwardRef(Component) ref={ref} innerRef={innerRef} />` `innerRef` will be dropped
+ *
+ * Only copies statics from material-ui over.
+ *
+ * @param {React.ComponentType} Component
+ * @returns {React.ForwardRefComponent}
+ */
+
+function withForwardedRef(Component) {
+  var ForwardRefComponent = react__WEBPACK_IMPORTED_MODULE_1___default.a.forwardRef(function (props, ref) {
+    return (// We expect this component to be wrapped in `withStyles` in which `innerRef`
+      // is already intercepted and therefore won't appear in `props` here.
+      react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Component, _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({}, props, {
+        innerRef: ref
+      }))
+    );
+  });
+
+  if (true) {
+    ForwardRefComponent.displayName = "ForwardRef(".concat(Object(_material_ui_utils__WEBPACK_IMPORTED_MODULE_3__["getDisplayName"])(Component), ")");
+  }
+
+  return hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default()(ForwardRefComponent, Component);
 }
 
 /***/ }),
@@ -5515,6 +7072,39 @@ var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/crea
 var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
   d: "M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
 }), 'Menu');
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "../node_modules/@material-ui/icons/PhotoCamera.js":
+/*!*********************************************************!*\
+  !*** ../node_modules/@material-ui/icons/PhotoCamera.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "../node_modules/@material-ui/icons/utils/createSvgIcon.js"));
+
+var _default = (0, _createSvgIcon.default)(_react.default.createElement(_react.default.Fragment, null, _react.default.createElement("circle", {
+  cx: "12",
+  cy: "12",
+  r: "3.2"
+}), _react.default.createElement("path", {
+  d: "M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"
+})), 'PhotoCamera');
 
 exports.default = _default;
 
@@ -8453,54 +10043,6 @@ function replaceClassName(origClass, classToRemove) {
 module.exports = function removeClass(element, className) {
   if (element.classList) element.classList.remove(className);else if (typeof element.className === 'string') element.className = replaceClassName(element.className, className);else element.setAttribute('class', replaceClassName(element.className && element.className.baseVal || '', className));
 };
-
-/***/ }),
-
-/***/ "../node_modules/exenv/index.js":
-/*!**************************************!*\
-  !*** ../node_modules/exenv/index.js ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __WEBPACK_AMD_DEFINE_RESULT__;/*!
-  Copyright (c) 2015 Jed Watson.
-  Based on code that is Copyright 2013-2015, Facebook, Inc.
-  All rights reserved.
-*/
-/* global define */
-
-(function () {
-	'use strict';
-
-	var canUseDOM = !!(
-		typeof window !== 'undefined' &&
-		window.document &&
-		window.document.createElement
-	);
-
-	var ExecutionEnvironment = {
-
-		canUseDOM: canUseDOM,
-
-		canUseWorkers: typeof Worker !== 'undefined',
-
-		canUseEventListeners:
-			canUseDOM && !!(window.addEventListener || window.attachEvent),
-
-		canUseViewport: canUseDOM && !!window.screen
-
-	};
-
-	if (true) {
-		!(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
-			return ExecutionEnvironment;
-		}).call(exports, __webpack_require__, exports, module),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	} else {}
-
-}());
-
 
 /***/ }),
 
@@ -35109,1035 +36651,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "../node_modules/react-fast-compare/index.js":
-/*!***************************************************!*\
-  !*** ../node_modules/react-fast-compare/index.js ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var isArray = Array.isArray;
-var keyList = Object.keys;
-var hasProp = Object.prototype.hasOwnProperty;
-var hasElementType = typeof Element !== 'undefined';
-
-function equal(a, b) {
-  // fast-deep-equal index.js 2.0.1
-  if (a === b) return true;
-
-  if (a && b && typeof a == 'object' && typeof b == 'object') {
-    var arrA = isArray(a)
-      , arrB = isArray(b)
-      , i
-      , length
-      , key;
-
-    if (arrA && arrB) {
-      length = a.length;
-      if (length != b.length) return false;
-      for (i = length; i-- !== 0;)
-        if (!equal(a[i], b[i])) return false;
-      return true;
-    }
-
-    if (arrA != arrB) return false;
-
-    var dateA = a instanceof Date
-      , dateB = b instanceof Date;
-    if (dateA != dateB) return false;
-    if (dateA && dateB) return a.getTime() == b.getTime();
-
-    var regexpA = a instanceof RegExp
-      , regexpB = b instanceof RegExp;
-    if (regexpA != regexpB) return false;
-    if (regexpA && regexpB) return a.toString() == b.toString();
-
-    var keys = keyList(a);
-    length = keys.length;
-
-    if (length !== keyList(b).length)
-      return false;
-
-    for (i = length; i-- !== 0;)
-      if (!hasProp.call(b, keys[i])) return false;
-    // end fast-deep-equal
-
-    // start react-fast-compare
-    // custom handling for DOM elements
-    if (hasElementType && a instanceof Element && b instanceof Element)
-      return a === b;
-
-    // custom handling for React
-    for (i = length; i-- !== 0;) {
-      key = keys[i];
-      if (key === '_owner' && a.$$typeof) {
-        // React-specific: avoid traversing React elements' _owner.
-        //  _owner contains circular references
-        // and is not needed when comparing the actual elements (and not their owners)
-        // .$$typeof and ._store on just reasonable markers of a react element
-        continue;
-      } else {
-        // all other properties should be traversed as usual
-        if (!equal(a[key], b[key])) return false;
-      }
-    }
-    // end react-fast-compare
-
-    // fast-deep-equal index.js 2.0.1
-    return true;
-  }
-
-  return a !== a && b !== b;
-}
-// end fast-deep-equal
-
-module.exports = function exportedEqual(a, b) {
-  try {
-    return equal(a, b);
-  } catch (error) {
-    if ((error.message && error.message.match(/stack|recursion/i)) || (error.number === -2146828260)) {
-      // warn on circular references, don't crash
-      // browsers give this different errors name and messages:
-      // chrome/safari: "RangeError", "Maximum call stack size exceeded"
-      // firefox: "InternalError", too much recursion"
-      // edge: "Error", "Out of stack space"
-      console.warn('Warning: react-fast-compare does not handle circular references.', error.name, error.message);
-      return false;
-    }
-    // some other error. we should definitely know about these
-    throw error;
-  }
-};
-
-
-/***/ }),
-
-/***/ "../node_modules/react-helmet/lib/Helmet.js":
-/*!**************************************************!*\
-  !*** ../node_modules/react-helmet/lib/Helmet.js ***!
-  \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports.__esModule = true;
-exports.Helmet = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _reactSideEffect = __webpack_require__(/*! react-side-effect */ "../node_modules/react-side-effect/lib/index.js");
-
-var _reactSideEffect2 = _interopRequireDefault(_reactSideEffect);
-
-var _reactFastCompare = __webpack_require__(/*! react-fast-compare */ "../node_modules/react-fast-compare/index.js");
-
-var _reactFastCompare2 = _interopRequireDefault(_reactFastCompare);
-
-var _HelmetUtils = __webpack_require__(/*! ./HelmetUtils.js */ "../node_modules/react-helmet/lib/HelmetUtils.js");
-
-var _HelmetConstants = __webpack_require__(/*! ./HelmetConstants.js */ "../node_modules/react-helmet/lib/HelmetConstants.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Helmet = function Helmet(Component) {
-    var _class, _temp;
-
-    return _temp = _class = function (_React$Component) {
-        _inherits(HelmetWrapper, _React$Component);
-
-        function HelmetWrapper() {
-            _classCallCheck(this, HelmetWrapper);
-
-            return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));
-        }
-
-        HelmetWrapper.prototype.shouldComponentUpdate = function shouldComponentUpdate(nextProps) {
-            return !(0, _reactFastCompare2.default)(this.props, nextProps);
-        };
-
-        HelmetWrapper.prototype.mapNestedChildrenToProps = function mapNestedChildrenToProps(child, nestedChildren) {
-            if (!nestedChildren) {
-                return null;
-            }
-
-            switch (child.type) {
-                case _HelmetConstants.TAG_NAMES.SCRIPT:
-                case _HelmetConstants.TAG_NAMES.NOSCRIPT:
-                    return {
-                        innerHTML: nestedChildren
-                    };
-
-                case _HelmetConstants.TAG_NAMES.STYLE:
-                    return {
-                        cssText: nestedChildren
-                    };
-            }
-
-            throw new Error("<" + child.type + " /> elements are self-closing and can not contain children. Refer to our API for more information.");
-        };
-
-        HelmetWrapper.prototype.flattenArrayTypeChildren = function flattenArrayTypeChildren(_ref) {
-            var _extends2;
-
-            var child = _ref.child,
-                arrayTypeChildren = _ref.arrayTypeChildren,
-                newChildProps = _ref.newChildProps,
-                nestedChildren = _ref.nestedChildren;
-
-            return _extends({}, arrayTypeChildren, (_extends2 = {}, _extends2[child.type] = [].concat(arrayTypeChildren[child.type] || [], [_extends({}, newChildProps, this.mapNestedChildrenToProps(child, nestedChildren))]), _extends2));
-        };
-
-        HelmetWrapper.prototype.mapObjectTypeChildren = function mapObjectTypeChildren(_ref2) {
-            var _extends3, _extends4;
-
-            var child = _ref2.child,
-                newProps = _ref2.newProps,
-                newChildProps = _ref2.newChildProps,
-                nestedChildren = _ref2.nestedChildren;
-
-            switch (child.type) {
-                case _HelmetConstants.TAG_NAMES.TITLE:
-                    return _extends({}, newProps, (_extends3 = {}, _extends3[child.type] = nestedChildren, _extends3.titleAttributes = _extends({}, newChildProps), _extends3));
-
-                case _HelmetConstants.TAG_NAMES.BODY:
-                    return _extends({}, newProps, {
-                        bodyAttributes: _extends({}, newChildProps)
-                    });
-
-                case _HelmetConstants.TAG_NAMES.HTML:
-                    return _extends({}, newProps, {
-                        htmlAttributes: _extends({}, newChildProps)
-                    });
-            }
-
-            return _extends({}, newProps, (_extends4 = {}, _extends4[child.type] = _extends({}, newChildProps), _extends4));
-        };
-
-        HelmetWrapper.prototype.mapArrayTypeChildrenToProps = function mapArrayTypeChildrenToProps(arrayTypeChildren, newProps) {
-            var newFlattenedProps = _extends({}, newProps);
-
-            Object.keys(arrayTypeChildren).forEach(function (arrayChildName) {
-                var _extends5;
-
-                newFlattenedProps = _extends({}, newFlattenedProps, (_extends5 = {}, _extends5[arrayChildName] = arrayTypeChildren[arrayChildName], _extends5));
-            });
-
-            return newFlattenedProps;
-        };
-
-        HelmetWrapper.prototype.warnOnInvalidChildren = function warnOnInvalidChildren(child, nestedChildren) {
-            if (true) {
-                if (!_HelmetConstants.VALID_TAG_NAMES.some(function (name) {
-                    return child.type === name;
-                })) {
-                    if (typeof child.type === "function") {
-                        return (0, _HelmetUtils.warn)("You may be attempting to nest <Helmet> components within each other, which is not allowed. Refer to our API for more information.");
-                    }
-
-                    return (0, _HelmetUtils.warn)("Only elements types " + _HelmetConstants.VALID_TAG_NAMES.join(", ") + " are allowed. Helmet does not support rendering <" + child.type + "> elements. Refer to our API for more information.");
-                }
-
-                if (nestedChildren && typeof nestedChildren !== "string" && (!Array.isArray(nestedChildren) || nestedChildren.some(function (nestedChild) {
-                    return typeof nestedChild !== "string";
-                }))) {
-                    throw new Error("Helmet expects a string as a child of <" + child.type + ">. Did you forget to wrap your children in braces? ( <" + child.type + ">{``}</" + child.type + "> ) Refer to our API for more information.");
-                }
-            }
-
-            return true;
-        };
-
-        HelmetWrapper.prototype.mapChildrenToProps = function mapChildrenToProps(children, newProps) {
-            var _this2 = this;
-
-            var arrayTypeChildren = {};
-
-            _react2.default.Children.forEach(children, function (child) {
-                if (!child || !child.props) {
-                    return;
-                }
-
-                var _child$props = child.props,
-                    nestedChildren = _child$props.children,
-                    childProps = _objectWithoutProperties(_child$props, ["children"]);
-
-                var newChildProps = (0, _HelmetUtils.convertReactPropstoHtmlAttributes)(childProps);
-
-                _this2.warnOnInvalidChildren(child, nestedChildren);
-
-                switch (child.type) {
-                    case _HelmetConstants.TAG_NAMES.LINK:
-                    case _HelmetConstants.TAG_NAMES.META:
-                    case _HelmetConstants.TAG_NAMES.NOSCRIPT:
-                    case _HelmetConstants.TAG_NAMES.SCRIPT:
-                    case _HelmetConstants.TAG_NAMES.STYLE:
-                        arrayTypeChildren = _this2.flattenArrayTypeChildren({
-                            child: child,
-                            arrayTypeChildren: arrayTypeChildren,
-                            newChildProps: newChildProps,
-                            nestedChildren: nestedChildren
-                        });
-                        break;
-
-                    default:
-                        newProps = _this2.mapObjectTypeChildren({
-                            child: child,
-                            newProps: newProps,
-                            newChildProps: newChildProps,
-                            nestedChildren: nestedChildren
-                        });
-                        break;
-                }
-            });
-
-            newProps = this.mapArrayTypeChildrenToProps(arrayTypeChildren, newProps);
-            return newProps;
-        };
-
-        HelmetWrapper.prototype.render = function render() {
-            var _props = this.props,
-                children = _props.children,
-                props = _objectWithoutProperties(_props, ["children"]);
-
-            var newProps = _extends({}, props);
-
-            if (children) {
-                newProps = this.mapChildrenToProps(children, newProps);
-            }
-
-            return _react2.default.createElement(Component, newProps);
-        };
-
-        _createClass(HelmetWrapper, null, [{
-            key: "canUseDOM",
-
-
-            // Component.peek comes from react-side-effect:
-            // For testing, you may use a static peek() method available on the returned component.
-            // It lets you get the current state without resetting the mounted instance stack.
-            // Don’t use it for anything other than testing.
-
-            /**
-             * @param {Object} base: {"target": "_blank", "href": "http://mysite.com/"}
-             * @param {Object} bodyAttributes: {"className": "root"}
-             * @param {String} defaultTitle: "Default Title"
-             * @param {Boolean} defer: true
-             * @param {Boolean} encodeSpecialCharacters: true
-             * @param {Object} htmlAttributes: {"lang": "en", "amp": undefined}
-             * @param {Array} link: [{"rel": "canonical", "href": "http://mysite.com/example"}]
-             * @param {Array} meta: [{"name": "description", "content": "Test description"}]
-             * @param {Array} noscript: [{"innerHTML": "<img src='http://mysite.com/js/test.js'"}]
-             * @param {Function} onChangeClientState: "(newState) => console.log(newState)"
-             * @param {Array} script: [{"type": "text/javascript", "src": "http://mysite.com/js/test.js"}]
-             * @param {Array} style: [{"type": "text/css", "cssText": "div { display: block; color: blue; }"}]
-             * @param {String} title: "Title"
-             * @param {Object} titleAttributes: {"itemprop": "name"}
-             * @param {String} titleTemplate: "MySite.com - %s"
-             */
-            set: function set(canUseDOM) {
-                Component.canUseDOM = canUseDOM;
-            }
-        }]);
-
-        return HelmetWrapper;
-    }(_react2.default.Component), _class.propTypes = {
-        base: _propTypes2.default.object,
-        bodyAttributes: _propTypes2.default.object,
-        children: _propTypes2.default.oneOfType([_propTypes2.default.arrayOf(_propTypes2.default.node), _propTypes2.default.node]),
-        defaultTitle: _propTypes2.default.string,
-        defer: _propTypes2.default.bool,
-        encodeSpecialCharacters: _propTypes2.default.bool,
-        htmlAttributes: _propTypes2.default.object,
-        link: _propTypes2.default.arrayOf(_propTypes2.default.object),
-        meta: _propTypes2.default.arrayOf(_propTypes2.default.object),
-        noscript: _propTypes2.default.arrayOf(_propTypes2.default.object),
-        onChangeClientState: _propTypes2.default.func,
-        script: _propTypes2.default.arrayOf(_propTypes2.default.object),
-        style: _propTypes2.default.arrayOf(_propTypes2.default.object),
-        title: _propTypes2.default.string,
-        titleAttributes: _propTypes2.default.object,
-        titleTemplate: _propTypes2.default.string
-    }, _class.defaultProps = {
-        defer: true,
-        encodeSpecialCharacters: true
-    }, _class.peek = Component.peek, _class.rewind = function () {
-        var mappedState = Component.rewind();
-        if (!mappedState) {
-            // provide fallback if mappedState is undefined
-            mappedState = (0, _HelmetUtils.mapStateOnServer)({
-                baseTag: [],
-                bodyAttributes: {},
-                encodeSpecialCharacters: true,
-                htmlAttributes: {},
-                linkTags: [],
-                metaTags: [],
-                noscriptTags: [],
-                scriptTags: [],
-                styleTags: [],
-                title: "",
-                titleAttributes: {}
-            });
-        }
-
-        return mappedState;
-    }, _temp;
-};
-
-var NullComponent = function NullComponent() {
-    return null;
-};
-
-var HelmetSideEffects = (0, _reactSideEffect2.default)(_HelmetUtils.reducePropsToState, _HelmetUtils.handleClientStateChange, _HelmetUtils.mapStateOnServer)(NullComponent);
-
-var HelmetExport = Helmet(HelmetSideEffects);
-HelmetExport.renderStatic = HelmetExport.rewind;
-
-exports.Helmet = HelmetExport;
-exports.default = HelmetExport;
-
-/***/ }),
-
-/***/ "../node_modules/react-helmet/lib/HelmetConstants.js":
-/*!***********************************************************!*\
-  !*** ../node_modules/react-helmet/lib/HelmetConstants.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-exports.__esModule = true;
-var ATTRIBUTE_NAMES = exports.ATTRIBUTE_NAMES = {
-    BODY: "bodyAttributes",
-    HTML: "htmlAttributes",
-    TITLE: "titleAttributes"
-};
-
-var TAG_NAMES = exports.TAG_NAMES = {
-    BASE: "base",
-    BODY: "body",
-    HEAD: "head",
-    HTML: "html",
-    LINK: "link",
-    META: "meta",
-    NOSCRIPT: "noscript",
-    SCRIPT: "script",
-    STYLE: "style",
-    TITLE: "title"
-};
-
-var VALID_TAG_NAMES = exports.VALID_TAG_NAMES = Object.keys(TAG_NAMES).map(function (name) {
-    return TAG_NAMES[name];
-});
-
-var TAG_PROPERTIES = exports.TAG_PROPERTIES = {
-    CHARSET: "charset",
-    CSS_TEXT: "cssText",
-    HREF: "href",
-    HTTPEQUIV: "http-equiv",
-    INNER_HTML: "innerHTML",
-    ITEM_PROP: "itemprop",
-    NAME: "name",
-    PROPERTY: "property",
-    REL: "rel",
-    SRC: "src"
-};
-
-var REACT_TAG_MAP = exports.REACT_TAG_MAP = {
-    accesskey: "accessKey",
-    charset: "charSet",
-    class: "className",
-    contenteditable: "contentEditable",
-    contextmenu: "contextMenu",
-    "http-equiv": "httpEquiv",
-    itemprop: "itemProp",
-    tabindex: "tabIndex"
-};
-
-var HELMET_PROPS = exports.HELMET_PROPS = {
-    DEFAULT_TITLE: "defaultTitle",
-    DEFER: "defer",
-    ENCODE_SPECIAL_CHARACTERS: "encodeSpecialCharacters",
-    ON_CHANGE_CLIENT_STATE: "onChangeClientState",
-    TITLE_TEMPLATE: "titleTemplate"
-};
-
-var HTML_TAG_MAP = exports.HTML_TAG_MAP = Object.keys(REACT_TAG_MAP).reduce(function (obj, key) {
-    obj[REACT_TAG_MAP[key]] = key;
-    return obj;
-}, {});
-
-var SELF_CLOSING_TAGS = exports.SELF_CLOSING_TAGS = [TAG_NAMES.NOSCRIPT, TAG_NAMES.SCRIPT, TAG_NAMES.STYLE];
-
-var HELMET_ATTRIBUTE = exports.HELMET_ATTRIBUTE = "data-react-helmet";
-
-/***/ }),
-
-/***/ "../node_modules/react-helmet/lib/HelmetUtils.js":
-/*!*******************************************************!*\
-  !*** ../node_modules/react-helmet/lib/HelmetUtils.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {exports.__esModule = true;
-exports.warn = exports.requestAnimationFrame = exports.reducePropsToState = exports.mapStateOnServer = exports.handleClientStateChange = exports.convertReactPropstoHtmlAttributes = undefined;
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _objectAssign = __webpack_require__(/*! object-assign */ "../node_modules/object-assign/index.js");
-
-var _objectAssign2 = _interopRequireDefault(_objectAssign);
-
-var _HelmetConstants = __webpack_require__(/*! ./HelmetConstants.js */ "../node_modules/react-helmet/lib/HelmetConstants.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var encodeSpecialCharacters = function encodeSpecialCharacters(str) {
-    var encode = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-
-    if (encode === false) {
-        return String(str);
-    }
-
-    return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#x27;");
-};
-
-var getTitleFromPropsList = function getTitleFromPropsList(propsList) {
-    var innermostTitle = getInnermostProperty(propsList, _HelmetConstants.TAG_NAMES.TITLE);
-    var innermostTemplate = getInnermostProperty(propsList, _HelmetConstants.HELMET_PROPS.TITLE_TEMPLATE);
-
-    if (innermostTemplate && innermostTitle) {
-        // use function arg to avoid need to escape $ characters
-        return innermostTemplate.replace(/%s/g, function () {
-            return innermostTitle;
-        });
-    }
-
-    var innermostDefaultTitle = getInnermostProperty(propsList, _HelmetConstants.HELMET_PROPS.DEFAULT_TITLE);
-
-    return innermostTitle || innermostDefaultTitle || undefined;
-};
-
-var getOnChangeClientState = function getOnChangeClientState(propsList) {
-    return getInnermostProperty(propsList, _HelmetConstants.HELMET_PROPS.ON_CHANGE_CLIENT_STATE) || function () {};
-};
-
-var getAttributesFromPropsList = function getAttributesFromPropsList(tagType, propsList) {
-    return propsList.filter(function (props) {
-        return typeof props[tagType] !== "undefined";
-    }).map(function (props) {
-        return props[tagType];
-    }).reduce(function (tagAttrs, current) {
-        return _extends({}, tagAttrs, current);
-    }, {});
-};
-
-var getBaseTagFromPropsList = function getBaseTagFromPropsList(primaryAttributes, propsList) {
-    return propsList.filter(function (props) {
-        return typeof props[_HelmetConstants.TAG_NAMES.BASE] !== "undefined";
-    }).map(function (props) {
-        return props[_HelmetConstants.TAG_NAMES.BASE];
-    }).reverse().reduce(function (innermostBaseTag, tag) {
-        if (!innermostBaseTag.length) {
-            var keys = Object.keys(tag);
-
-            for (var i = 0; i < keys.length; i++) {
-                var attributeKey = keys[i];
-                var lowerCaseAttributeKey = attributeKey.toLowerCase();
-
-                if (primaryAttributes.indexOf(lowerCaseAttributeKey) !== -1 && tag[lowerCaseAttributeKey]) {
-                    return innermostBaseTag.concat(tag);
-                }
-            }
-        }
-
-        return innermostBaseTag;
-    }, []);
-};
-
-var getTagsFromPropsList = function getTagsFromPropsList(tagName, primaryAttributes, propsList) {
-    // Calculate list of tags, giving priority innermost component (end of the propslist)
-    var approvedSeenTags = {};
-
-    return propsList.filter(function (props) {
-        if (Array.isArray(props[tagName])) {
-            return true;
-        }
-        if (typeof props[tagName] !== "undefined") {
-            warn("Helmet: " + tagName + " should be of type \"Array\". Instead found type \"" + _typeof(props[tagName]) + "\"");
-        }
-        return false;
-    }).map(function (props) {
-        return props[tagName];
-    }).reverse().reduce(function (approvedTags, instanceTags) {
-        var instanceSeenTags = {};
-
-        instanceTags.filter(function (tag) {
-            var primaryAttributeKey = void 0;
-            var keys = Object.keys(tag);
-            for (var i = 0; i < keys.length; i++) {
-                var attributeKey = keys[i];
-                var lowerCaseAttributeKey = attributeKey.toLowerCase();
-
-                // Special rule with link tags, since rel and href are both primary tags, rel takes priority
-                if (primaryAttributes.indexOf(lowerCaseAttributeKey) !== -1 && !(primaryAttributeKey === _HelmetConstants.TAG_PROPERTIES.REL && tag[primaryAttributeKey].toLowerCase() === "canonical") && !(lowerCaseAttributeKey === _HelmetConstants.TAG_PROPERTIES.REL && tag[lowerCaseAttributeKey].toLowerCase() === "stylesheet")) {
-                    primaryAttributeKey = lowerCaseAttributeKey;
-                }
-                // Special case for innerHTML which doesn't work lowercased
-                if (primaryAttributes.indexOf(attributeKey) !== -1 && (attributeKey === _HelmetConstants.TAG_PROPERTIES.INNER_HTML || attributeKey === _HelmetConstants.TAG_PROPERTIES.CSS_TEXT || attributeKey === _HelmetConstants.TAG_PROPERTIES.ITEM_PROP)) {
-                    primaryAttributeKey = attributeKey;
-                }
-            }
-
-            if (!primaryAttributeKey || !tag[primaryAttributeKey]) {
-                return false;
-            }
-
-            var value = tag[primaryAttributeKey].toLowerCase();
-
-            if (!approvedSeenTags[primaryAttributeKey]) {
-                approvedSeenTags[primaryAttributeKey] = {};
-            }
-
-            if (!instanceSeenTags[primaryAttributeKey]) {
-                instanceSeenTags[primaryAttributeKey] = {};
-            }
-
-            if (!approvedSeenTags[primaryAttributeKey][value]) {
-                instanceSeenTags[primaryAttributeKey][value] = true;
-                return true;
-            }
-
-            return false;
-        }).reverse().forEach(function (tag) {
-            return approvedTags.push(tag);
-        });
-
-        // Update seen tags with tags from this instance
-        var keys = Object.keys(instanceSeenTags);
-        for (var i = 0; i < keys.length; i++) {
-            var attributeKey = keys[i];
-            var tagUnion = (0, _objectAssign2.default)({}, approvedSeenTags[attributeKey], instanceSeenTags[attributeKey]);
-
-            approvedSeenTags[attributeKey] = tagUnion;
-        }
-
-        return approvedTags;
-    }, []).reverse();
-};
-
-var getInnermostProperty = function getInnermostProperty(propsList, property) {
-    for (var i = propsList.length - 1; i >= 0; i--) {
-        var props = propsList[i];
-
-        if (props.hasOwnProperty(property)) {
-            return props[property];
-        }
-    }
-
-    return null;
-};
-
-var reducePropsToState = function reducePropsToState(propsList) {
-    return {
-        baseTag: getBaseTagFromPropsList([_HelmetConstants.TAG_PROPERTIES.HREF], propsList),
-        bodyAttributes: getAttributesFromPropsList(_HelmetConstants.ATTRIBUTE_NAMES.BODY, propsList),
-        defer: getInnermostProperty(propsList, _HelmetConstants.HELMET_PROPS.DEFER),
-        encode: getInnermostProperty(propsList, _HelmetConstants.HELMET_PROPS.ENCODE_SPECIAL_CHARACTERS),
-        htmlAttributes: getAttributesFromPropsList(_HelmetConstants.ATTRIBUTE_NAMES.HTML, propsList),
-        linkTags: getTagsFromPropsList(_HelmetConstants.TAG_NAMES.LINK, [_HelmetConstants.TAG_PROPERTIES.REL, _HelmetConstants.TAG_PROPERTIES.HREF], propsList),
-        metaTags: getTagsFromPropsList(_HelmetConstants.TAG_NAMES.META, [_HelmetConstants.TAG_PROPERTIES.NAME, _HelmetConstants.TAG_PROPERTIES.CHARSET, _HelmetConstants.TAG_PROPERTIES.HTTPEQUIV, _HelmetConstants.TAG_PROPERTIES.PROPERTY, _HelmetConstants.TAG_PROPERTIES.ITEM_PROP], propsList),
-        noscriptTags: getTagsFromPropsList(_HelmetConstants.TAG_NAMES.NOSCRIPT, [_HelmetConstants.TAG_PROPERTIES.INNER_HTML], propsList),
-        onChangeClientState: getOnChangeClientState(propsList),
-        scriptTags: getTagsFromPropsList(_HelmetConstants.TAG_NAMES.SCRIPT, [_HelmetConstants.TAG_PROPERTIES.SRC, _HelmetConstants.TAG_PROPERTIES.INNER_HTML], propsList),
-        styleTags: getTagsFromPropsList(_HelmetConstants.TAG_NAMES.STYLE, [_HelmetConstants.TAG_PROPERTIES.CSS_TEXT], propsList),
-        title: getTitleFromPropsList(propsList),
-        titleAttributes: getAttributesFromPropsList(_HelmetConstants.ATTRIBUTE_NAMES.TITLE, propsList)
-    };
-};
-
-var rafPolyfill = function () {
-    var clock = Date.now();
-
-    return function (callback) {
-        var currentTime = Date.now();
-
-        if (currentTime - clock > 16) {
-            clock = currentTime;
-            callback(currentTime);
-        } else {
-            setTimeout(function () {
-                rafPolyfill(callback);
-            }, 0);
-        }
-    };
-}();
-
-var cafPolyfill = function cafPolyfill(id) {
-    return clearTimeout(id);
-};
-
-var requestAnimationFrame = typeof window !== "undefined" ? window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || rafPolyfill : global.requestAnimationFrame || rafPolyfill;
-
-var cancelAnimationFrame = typeof window !== "undefined" ? window.cancelAnimationFrame || window.webkitCancelAnimationFrame || window.mozCancelAnimationFrame || cafPolyfill : global.cancelAnimationFrame || cafPolyfill;
-
-var warn = function warn(msg) {
-    return console && typeof console.warn === "function" && console.warn(msg);
-};
-
-var _helmetCallback = null;
-
-var handleClientStateChange = function handleClientStateChange(newState) {
-    if (_helmetCallback) {
-        cancelAnimationFrame(_helmetCallback);
-    }
-
-    if (newState.defer) {
-        _helmetCallback = requestAnimationFrame(function () {
-            commitTagChanges(newState, function () {
-                _helmetCallback = null;
-            });
-        });
-    } else {
-        commitTagChanges(newState);
-        _helmetCallback = null;
-    }
-};
-
-var commitTagChanges = function commitTagChanges(newState, cb) {
-    var baseTag = newState.baseTag,
-        bodyAttributes = newState.bodyAttributes,
-        htmlAttributes = newState.htmlAttributes,
-        linkTags = newState.linkTags,
-        metaTags = newState.metaTags,
-        noscriptTags = newState.noscriptTags,
-        onChangeClientState = newState.onChangeClientState,
-        scriptTags = newState.scriptTags,
-        styleTags = newState.styleTags,
-        title = newState.title,
-        titleAttributes = newState.titleAttributes;
-
-    updateAttributes(_HelmetConstants.TAG_NAMES.BODY, bodyAttributes);
-    updateAttributes(_HelmetConstants.TAG_NAMES.HTML, htmlAttributes);
-
-    updateTitle(title, titleAttributes);
-
-    var tagUpdates = {
-        baseTag: updateTags(_HelmetConstants.TAG_NAMES.BASE, baseTag),
-        linkTags: updateTags(_HelmetConstants.TAG_NAMES.LINK, linkTags),
-        metaTags: updateTags(_HelmetConstants.TAG_NAMES.META, metaTags),
-        noscriptTags: updateTags(_HelmetConstants.TAG_NAMES.NOSCRIPT, noscriptTags),
-        scriptTags: updateTags(_HelmetConstants.TAG_NAMES.SCRIPT, scriptTags),
-        styleTags: updateTags(_HelmetConstants.TAG_NAMES.STYLE, styleTags)
-    };
-
-    var addedTags = {};
-    var removedTags = {};
-
-    Object.keys(tagUpdates).forEach(function (tagType) {
-        var _tagUpdates$tagType = tagUpdates[tagType],
-            newTags = _tagUpdates$tagType.newTags,
-            oldTags = _tagUpdates$tagType.oldTags;
-
-
-        if (newTags.length) {
-            addedTags[tagType] = newTags;
-        }
-        if (oldTags.length) {
-            removedTags[tagType] = tagUpdates[tagType].oldTags;
-        }
-    });
-
-    cb && cb();
-
-    onChangeClientState(newState, addedTags, removedTags);
-};
-
-var flattenArray = function flattenArray(possibleArray) {
-    return Array.isArray(possibleArray) ? possibleArray.join("") : possibleArray;
-};
-
-var updateTitle = function updateTitle(title, attributes) {
-    if (typeof title !== "undefined" && document.title !== title) {
-        document.title = flattenArray(title);
-    }
-
-    updateAttributes(_HelmetConstants.TAG_NAMES.TITLE, attributes);
-};
-
-var updateAttributes = function updateAttributes(tagName, attributes) {
-    var elementTag = document.getElementsByTagName(tagName)[0];
-
-    if (!elementTag) {
-        return;
-    }
-
-    var helmetAttributeString = elementTag.getAttribute(_HelmetConstants.HELMET_ATTRIBUTE);
-    var helmetAttributes = helmetAttributeString ? helmetAttributeString.split(",") : [];
-    var attributesToRemove = [].concat(helmetAttributes);
-    var attributeKeys = Object.keys(attributes);
-
-    for (var i = 0; i < attributeKeys.length; i++) {
-        var attribute = attributeKeys[i];
-        var value = attributes[attribute] || "";
-
-        if (elementTag.getAttribute(attribute) !== value) {
-            elementTag.setAttribute(attribute, value);
-        }
-
-        if (helmetAttributes.indexOf(attribute) === -1) {
-            helmetAttributes.push(attribute);
-        }
-
-        var indexToSave = attributesToRemove.indexOf(attribute);
-        if (indexToSave !== -1) {
-            attributesToRemove.splice(indexToSave, 1);
-        }
-    }
-
-    for (var _i = attributesToRemove.length - 1; _i >= 0; _i--) {
-        elementTag.removeAttribute(attributesToRemove[_i]);
-    }
-
-    if (helmetAttributes.length === attributesToRemove.length) {
-        elementTag.removeAttribute(_HelmetConstants.HELMET_ATTRIBUTE);
-    } else if (elementTag.getAttribute(_HelmetConstants.HELMET_ATTRIBUTE) !== attributeKeys.join(",")) {
-        elementTag.setAttribute(_HelmetConstants.HELMET_ATTRIBUTE, attributeKeys.join(","));
-    }
-};
-
-var updateTags = function updateTags(type, tags) {
-    var headElement = document.head || document.querySelector(_HelmetConstants.TAG_NAMES.HEAD);
-    var tagNodes = headElement.querySelectorAll(type + "[" + _HelmetConstants.HELMET_ATTRIBUTE + "]");
-    var oldTags = Array.prototype.slice.call(tagNodes);
-    var newTags = [];
-    var indexToDelete = void 0;
-
-    if (tags && tags.length) {
-        tags.forEach(function (tag) {
-            var newElement = document.createElement(type);
-
-            for (var attribute in tag) {
-                if (tag.hasOwnProperty(attribute)) {
-                    if (attribute === _HelmetConstants.TAG_PROPERTIES.INNER_HTML) {
-                        newElement.innerHTML = tag.innerHTML;
-                    } else if (attribute === _HelmetConstants.TAG_PROPERTIES.CSS_TEXT) {
-                        if (newElement.styleSheet) {
-                            newElement.styleSheet.cssText = tag.cssText;
-                        } else {
-                            newElement.appendChild(document.createTextNode(tag.cssText));
-                        }
-                    } else {
-                        var value = typeof tag[attribute] === "undefined" ? "" : tag[attribute];
-                        newElement.setAttribute(attribute, value);
-                    }
-                }
-            }
-
-            newElement.setAttribute(_HelmetConstants.HELMET_ATTRIBUTE, "true");
-
-            // Remove a duplicate tag from domTagstoRemove, so it isn't cleared.
-            if (oldTags.some(function (existingTag, index) {
-                indexToDelete = index;
-                return newElement.isEqualNode(existingTag);
-            })) {
-                oldTags.splice(indexToDelete, 1);
-            } else {
-                newTags.push(newElement);
-            }
-        });
-    }
-
-    oldTags.forEach(function (tag) {
-        return tag.parentNode.removeChild(tag);
-    });
-    newTags.forEach(function (tag) {
-        return headElement.appendChild(tag);
-    });
-
-    return {
-        oldTags: oldTags,
-        newTags: newTags
-    };
-};
-
-var generateElementAttributesAsString = function generateElementAttributesAsString(attributes) {
-    return Object.keys(attributes).reduce(function (str, key) {
-        var attr = typeof attributes[key] !== "undefined" ? key + "=\"" + attributes[key] + "\"" : "" + key;
-        return str ? str + " " + attr : attr;
-    }, "");
-};
-
-var generateTitleAsString = function generateTitleAsString(type, title, attributes, encode) {
-    var attributeString = generateElementAttributesAsString(attributes);
-    var flattenedTitle = flattenArray(title);
-    return attributeString ? "<" + type + " " + _HelmetConstants.HELMET_ATTRIBUTE + "=\"true\" " + attributeString + ">" + encodeSpecialCharacters(flattenedTitle, encode) + "</" + type + ">" : "<" + type + " " + _HelmetConstants.HELMET_ATTRIBUTE + "=\"true\">" + encodeSpecialCharacters(flattenedTitle, encode) + "</" + type + ">";
-};
-
-var generateTagsAsString = function generateTagsAsString(type, tags, encode) {
-    return tags.reduce(function (str, tag) {
-        var attributeHtml = Object.keys(tag).filter(function (attribute) {
-            return !(attribute === _HelmetConstants.TAG_PROPERTIES.INNER_HTML || attribute === _HelmetConstants.TAG_PROPERTIES.CSS_TEXT);
-        }).reduce(function (string, attribute) {
-            var attr = typeof tag[attribute] === "undefined" ? attribute : attribute + "=\"" + encodeSpecialCharacters(tag[attribute], encode) + "\"";
-            return string ? string + " " + attr : attr;
-        }, "");
-
-        var tagContent = tag.innerHTML || tag.cssText || "";
-
-        var isSelfClosing = _HelmetConstants.SELF_CLOSING_TAGS.indexOf(type) === -1;
-
-        return str + "<" + type + " " + _HelmetConstants.HELMET_ATTRIBUTE + "=\"true\" " + attributeHtml + (isSelfClosing ? "/>" : ">" + tagContent + "</" + type + ">");
-    }, "");
-};
-
-var convertElementAttributestoReactProps = function convertElementAttributestoReactProps(attributes) {
-    var initProps = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-
-    return Object.keys(attributes).reduce(function (obj, key) {
-        obj[_HelmetConstants.REACT_TAG_MAP[key] || key] = attributes[key];
-        return obj;
-    }, initProps);
-};
-
-var convertReactPropstoHtmlAttributes = function convertReactPropstoHtmlAttributes(props) {
-    var initAttributes = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-
-    return Object.keys(props).reduce(function (obj, key) {
-        obj[_HelmetConstants.HTML_TAG_MAP[key] || key] = props[key];
-        return obj;
-    }, initAttributes);
-};
-
-var generateTitleAsReactComponent = function generateTitleAsReactComponent(type, title, attributes) {
-    var _initProps;
-
-    // assigning into an array to define toString function on it
-    var initProps = (_initProps = {
-        key: title
-    }, _initProps[_HelmetConstants.HELMET_ATTRIBUTE] = true, _initProps);
-    var props = convertElementAttributestoReactProps(attributes, initProps);
-
-    return [_react2.default.createElement(_HelmetConstants.TAG_NAMES.TITLE, props, title)];
-};
-
-var generateTagsAsReactComponent = function generateTagsAsReactComponent(type, tags) {
-    return tags.map(function (tag, i) {
-        var _mappedTag;
-
-        var mappedTag = (_mappedTag = {
-            key: i
-        }, _mappedTag[_HelmetConstants.HELMET_ATTRIBUTE] = true, _mappedTag);
-
-        Object.keys(tag).forEach(function (attribute) {
-            var mappedAttribute = _HelmetConstants.REACT_TAG_MAP[attribute] || attribute;
-
-            if (mappedAttribute === _HelmetConstants.TAG_PROPERTIES.INNER_HTML || mappedAttribute === _HelmetConstants.TAG_PROPERTIES.CSS_TEXT) {
-                var content = tag.innerHTML || tag.cssText;
-                mappedTag.dangerouslySetInnerHTML = { __html: content };
-            } else {
-                mappedTag[mappedAttribute] = tag[attribute];
-            }
-        });
-
-        return _react2.default.createElement(type, mappedTag);
-    });
-};
-
-var getMethodsForTag = function getMethodsForTag(type, tags, encode) {
-    switch (type) {
-        case _HelmetConstants.TAG_NAMES.TITLE:
-            return {
-                toComponent: function toComponent() {
-                    return generateTitleAsReactComponent(type, tags.title, tags.titleAttributes, encode);
-                },
-                toString: function toString() {
-                    return generateTitleAsString(type, tags.title, tags.titleAttributes, encode);
-                }
-            };
-        case _HelmetConstants.ATTRIBUTE_NAMES.BODY:
-        case _HelmetConstants.ATTRIBUTE_NAMES.HTML:
-            return {
-                toComponent: function toComponent() {
-                    return convertElementAttributestoReactProps(tags);
-                },
-                toString: function toString() {
-                    return generateElementAttributesAsString(tags);
-                }
-            };
-        default:
-            return {
-                toComponent: function toComponent() {
-                    return generateTagsAsReactComponent(type, tags);
-                },
-                toString: function toString() {
-                    return generateTagsAsString(type, tags, encode);
-                }
-            };
-    }
-};
-
-var mapStateOnServer = function mapStateOnServer(_ref) {
-    var baseTag = _ref.baseTag,
-        bodyAttributes = _ref.bodyAttributes,
-        encode = _ref.encode,
-        htmlAttributes = _ref.htmlAttributes,
-        linkTags = _ref.linkTags,
-        metaTags = _ref.metaTags,
-        noscriptTags = _ref.noscriptTags,
-        scriptTags = _ref.scriptTags,
-        styleTags = _ref.styleTags,
-        _ref$title = _ref.title,
-        title = _ref$title === undefined ? "" : _ref$title,
-        titleAttributes = _ref.titleAttributes;
-    return {
-        base: getMethodsForTag(_HelmetConstants.TAG_NAMES.BASE, baseTag, encode),
-        bodyAttributes: getMethodsForTag(_HelmetConstants.ATTRIBUTE_NAMES.BODY, bodyAttributes, encode),
-        htmlAttributes: getMethodsForTag(_HelmetConstants.ATTRIBUTE_NAMES.HTML, htmlAttributes, encode),
-        link: getMethodsForTag(_HelmetConstants.TAG_NAMES.LINK, linkTags, encode),
-        meta: getMethodsForTag(_HelmetConstants.TAG_NAMES.META, metaTags, encode),
-        noscript: getMethodsForTag(_HelmetConstants.TAG_NAMES.NOSCRIPT, noscriptTags, encode),
-        script: getMethodsForTag(_HelmetConstants.TAG_NAMES.SCRIPT, scriptTags, encode),
-        style: getMethodsForTag(_HelmetConstants.TAG_NAMES.STYLE, styleTags, encode),
-        title: getMethodsForTag(_HelmetConstants.TAG_NAMES.TITLE, { title: title, titleAttributes: titleAttributes }, encode)
-    };
-};
-
-exports.convertReactPropstoHtmlAttributes = convertReactPropstoHtmlAttributes;
-exports.handleClientStateChange = handleClientStateChange;
-exports.mapStateOnServer = mapStateOnServer;
-exports.reducePropsToState = reducePropsToState;
-exports.requestAnimationFrame = requestAnimationFrame;
-exports.warn = warn;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "../node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
 /***/ "../node_modules/react-is/cjs/react-is.development.js":
 /*!************************************************************!*\
   !*** ../node_modules/react-is/cjs/react-is.development.js ***!
@@ -37934,7 +38447,7 @@ function warning(message) {
 /*!****************************************************************!*\
   !*** ../node_modules/react-router-dom/esm/react-router-dom.js ***!
   \****************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39445,131 +39958,6 @@ function pathToRegexp (path, keys, options) {
 
   return stringToRegexp(/** @type {string} */ (path), /** @type {!Array} */ (keys), options)
 }
-
-
-/***/ }),
-
-/***/ "../node_modules/react-side-effect/lib/index.js":
-/*!******************************************************!*\
-  !*** ../node_modules/react-side-effect/lib/index.js ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-var React__default = _interopDefault(React);
-var ExecutionEnvironment = _interopDefault(__webpack_require__(/*! exenv */ "../node_modules/exenv/index.js"));
-var shallowEqual = _interopDefault(__webpack_require__(/*! shallowequal */ "../node_modules/shallowequal/index.js"));
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function withSideEffect(reducePropsToState, handleStateChangeOnClient, mapStateOnServer) {
-  if (typeof reducePropsToState !== 'function') {
-    throw new Error('Expected reducePropsToState to be a function.');
-  }
-  if (typeof handleStateChangeOnClient !== 'function') {
-    throw new Error('Expected handleStateChangeOnClient to be a function.');
-  }
-  if (typeof mapStateOnServer !== 'undefined' && typeof mapStateOnServer !== 'function') {
-    throw new Error('Expected mapStateOnServer to either be undefined or a function.');
-  }
-
-  function getDisplayName(WrappedComponent) {
-    return WrappedComponent.displayName || WrappedComponent.name || 'Component';
-  }
-
-  return function wrap(WrappedComponent) {
-    if (typeof WrappedComponent !== 'function') {
-      throw new Error('Expected WrappedComponent to be a React component.');
-    }
-
-    var mountedInstances = [];
-    var state = void 0;
-
-    function emitChange() {
-      state = reducePropsToState(mountedInstances.map(function (instance) {
-        return instance.props;
-      }));
-
-      if (SideEffect.canUseDOM) {
-        handleStateChangeOnClient(state);
-      } else if (mapStateOnServer) {
-        state = mapStateOnServer(state);
-      }
-    }
-
-    var SideEffect = function (_Component) {
-      _inherits(SideEffect, _Component);
-
-      function SideEffect() {
-        _classCallCheck(this, SideEffect);
-
-        return _possibleConstructorReturn(this, _Component.apply(this, arguments));
-      }
-
-      // Try to use displayName of wrapped component
-      SideEffect.peek = function peek() {
-        return state;
-      };
-
-      // Expose canUseDOM so tests can monkeypatch it
-
-
-      SideEffect.rewind = function rewind() {
-        if (SideEffect.canUseDOM) {
-          throw new Error('You may only call rewind() on the server. Call peek() to read the current state.');
-        }
-
-        var recordedState = state;
-        state = undefined;
-        mountedInstances = [];
-        return recordedState;
-      };
-
-      SideEffect.prototype.shouldComponentUpdate = function shouldComponentUpdate(nextProps) {
-        return !shallowEqual(nextProps, this.props);
-      };
-
-      SideEffect.prototype.componentWillMount = function componentWillMount() {
-        mountedInstances.push(this);
-        emitChange();
-      };
-
-      SideEffect.prototype.componentDidUpdate = function componentDidUpdate() {
-        emitChange();
-      };
-
-      SideEffect.prototype.componentWillUnmount = function componentWillUnmount() {
-        var index = mountedInstances.indexOf(this);
-        mountedInstances.splice(index, 1);
-        emitChange();
-      };
-
-      SideEffect.prototype.render = function render() {
-        return React__default.createElement(WrappedComponent, this.props);
-      };
-
-      return SideEffect;
-    }(React.Component);
-
-    SideEffect.displayName = 'SideEffect(' + getDisplayName(WrappedComponent) + ')';
-    SideEffect.canUseDOM = ExecutionEnvironment.canUseDOM;
-
-
-    return SideEffect;
-  };
-}
-
-module.exports = withSideEffect;
 
 
 /***/ }),
@@ -45063,63 +45451,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "../node_modules/shallowequal/index.js":
-/*!*********************************************!*\
-  !*** ../node_modules/shallowequal/index.js ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-//
-
-module.exports = function shallowEqual(objA, objB, compare, compareContext) {
-  var ret = compare ? compare.call(compareContext, objA, objB) : void 0;
-
-  if (ret !== void 0) {
-    return !!ret;
-  }
-
-  if (objA === objB) {
-    return true;
-  }
-
-  if (typeof objA !== "object" || !objA || typeof objB !== "object" || !objB) {
-    return false;
-  }
-
-  var keysA = Object.keys(objA);
-  var keysB = Object.keys(objB);
-
-  if (keysA.length !== keysB.length) {
-    return false;
-  }
-
-  var bHasOwnProperty = Object.prototype.hasOwnProperty.bind(objB);
-
-  // Test for A's keys different from B.
-  for (var idx = 0; idx < keysA.length; idx++) {
-    var key = keysA[idx];
-
-    if (!bHasOwnProperty(key)) {
-      return false;
-    }
-
-    var valueA = objA[key];
-    var valueB = objB[key];
-
-    ret = compare ? compare.call(compareContext, valueA, valueB, key) : void 0;
-
-    if (ret === false || (ret === void 0 && valueA !== valueB)) {
-      return false;
-    }
-  }
-
-  return true;
-};
-
-
-/***/ }),
-
 /***/ "../node_modules/symbol-observable/es/index.js":
 /*!*****************************************************!*\
   !*** ../node_modules/symbol-observable/es/index.js ***!
@@ -46072,48 +46403,6 @@ function ButtonAppBar() {
 
 /***/ }),
 
-/***/ "./components/Contact.js":
-/*!*******************************!*\
-  !*** ./components/Contact.js ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-helmet */ "../node_modules/react-helmet/lib/Helmet.js");
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-var Contact = function Contact() {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        "div",
-        null,
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-            "h2",
-            null,
-            "This is the contact page"
-        ),
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-            react_helmet__WEBPACK_IMPORTED_MODULE_1___default.a,
-            null,
-            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                "title",
-                null,
-                "Contact Page"
-            ),
-            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", { name: "description", content: "This is a proof of concept for React SSR" })
-        )
-    );
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Contact);
-
-/***/ }),
-
 /***/ "./components/Header.js":
 /*!******************************!*\
   !*** ./components/Header.js ***!
@@ -46127,42 +46416,96 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "../node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "../node_modules/react-redux/es/index.js");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/styles */ "../node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _material_ui_core_AppBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/AppBar */ "../node_modules/@material-ui/core/esm/AppBar/index.js");
+/* harmony import */ var _material_ui_core_Toolbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/Toolbar */ "../node_modules/@material-ui/core/esm/Toolbar/index.js");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/Typography */ "../node_modules/@material-ui/core/esm/Typography/index.js");
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/Button */ "../node_modules/@material-ui/core/esm/Button/index.js");
+/* harmony import */ var _material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/IconButton */ "../node_modules/@material-ui/core/esm/IconButton/index.js");
+/* harmony import */ var _material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/icons/Menu */ "../node_modules/@material-ui/icons/Menu.js");
+/* harmony import */ var _material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "../node_modules/@material-ui/core/esm/CssBaseline/index.js");
 
 
 
 
-var Header = function Header(_ref) {
-    var loggedIn = _ref.loggedIn;
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        "div",
+
+
+
+
+
+
+
+
+var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__["makeStyles"])(function (theme) {
+  return {
+    root: {
+      flexGrow: 1
+    },
+    menuButton: {
+      marginRight: theme.spacing(2)
+    },
+    title: {
+      flexGrow: 1
+    },
+    header: {
+      background: 'linear-gradient(45deg, #FFC107 05%, #FF8E53 40%, #FF8E13 70%)'
+    }
+  };
+});
+
+function Header() {
+  var classes = useStyles();
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+    "div",
+    { className: classes.root },
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_10__["default"], null),
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+      _material_ui_core_AppBar__WEBPACK_IMPORTED_MODULE_4__["default"],
+      { position: "static", className: classes.header },
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+        _material_ui_core_Toolbar__WEBPACK_IMPORTED_MODULE_5__["default"],
         null,
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-            react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"],
-            { to: "/" },
-            "Home"
+          _material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_8__["default"],
+          {
+            edge: "start",
+            className: classes.menuButton,
+            color: "inherit",
+            "aria-label": "Menu"
+          },
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_9___default.a, null)
         ),
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-            react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"],
-            { to: "/about" },
-            "About"
+          _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6__["default"],
+          { variant: "h6", className: classes.title },
+          "Vivid Journeys"
         ),
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-            react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"],
-            { to: "/contact" },
-            "Contact"
+          react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"],
+          { to: "/" },
+          "Home"
         ),
-        loggedIn && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-            react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"],
-            { to: "/secret" },
-            "Secret"
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+          react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"],
+          { to: "/season" },
+          "Season"
+        ),
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+          _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_7__["default"],
+          { color: "inherit" },
+          "Login"
         )
-    );
-};
+      )
+    )
+  );
+}
 
 var mapStateToProps = function mapStateToProps(state) {
-    return {
-        loggedIn: state.loggedIn
-    };
+  return {
+    loggedIn: state.loggedIn
+  };
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps)(Header));
@@ -46178,90 +46521,182 @@ var mapStateToProps = function mapStateToProps(state) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Home; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "../node_modules/react-redux/es/index.js");
-/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../store */ "./store.js");
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+/* harmony import */ var _material_ui_core_AppBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/AppBar */ "../node_modules/@material-ui/core/esm/AppBar/index.js");
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Button */ "../node_modules/@material-ui/core/esm/Button/index.js");
+/* harmony import */ var _material_ui_icons_PhotoCamera__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/icons/PhotoCamera */ "../node_modules/@material-ui/icons/PhotoCamera.js");
+/* harmony import */ var _material_ui_icons_PhotoCamera__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_PhotoCamera__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core_Card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Card */ "../node_modules/@material-ui/core/esm/Card/index.js");
+/* harmony import */ var _material_ui_core_CardActions__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/CardActions */ "../node_modules/@material-ui/core/esm/CardActions/index.js");
+/* harmony import */ var _material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/CardContent */ "../node_modules/@material-ui/core/esm/CardContent/index.js");
+/* harmony import */ var _material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/CardMedia */ "../node_modules/@material-ui/core/esm/CardMedia/index.js");
+/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "../node_modules/@material-ui/core/esm/CssBaseline/index.js");
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/Grid */ "../node_modules/@material-ui/core/esm/Grid/index.js");
+/* harmony import */ var _material_ui_core_Toolbar__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/Toolbar */ "../node_modules/@material-ui/core/esm/Toolbar/index.js");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @material-ui/core/Typography */ "../node_modules/@material-ui/core/esm/Typography/index.js");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @material-ui/core/styles */ "../node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _material_ui_core_Container__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @material-ui/core/Container */ "../node_modules/@material-ui/core/esm/Container/index.js");
+/* harmony import */ var _material_ui_core_Link__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @material-ui/core/Link */ "../node_modules/@material-ui/core/esm/Link/index.js");
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 
 
 
 
-var Home = function (_React$Component) {
-    _inherits(Home, _React$Component);
 
-    function Home() {
-        _classCallCheck(this, Home);
 
-        return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));
+
+
+
+
+
+
+
+
+function MadeWithLove() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+    _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_11__["default"],
+    { variant: 'body2', color: 'textSecondary', align: 'center' },
+    'Built with love by the ',
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+      _material_ui_core_Link__WEBPACK_IMPORTED_MODULE_14__["default"],
+      { color: 'inherit', href: 'https://material-ui.com/' },
+      'Material-UI'
+    ),
+    ' team.'
+  );
+}
+var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_12__["makeStyles"])(function (theme) {
+  return {
+    icon: {
+      marginRight: theme.spacing(2)
+    },
+    heroContent: {
+      backgroundColor: theme.palette.background.paper
+      //padding: theme.spacing(8, 0, 6),
+    },
+    heroButtons: {
+      marginTop: theme.spacing(4)
+    },
+    cardGrid: {
+      paddingTop: theme.spacing(8),
+      paddingBottom: theme.spacing(8)
+    },
+    card: {
+      height: '100%',
+      display: 'flex',
+      flexDirection: 'column'
+    },
+    cardMedia: {
+      paddingTop: '56.25%' // 16:9
+    },
+    cardContent: {
+      flexGrow: 1
+    },
+    footer: {
+      backgroundColor: theme.palette.background.paper,
+      padding: theme.spacing(6)
     }
+  };
+});
 
-    _createClass(Home, [{
-        key: "componentDidMount",
-        value: function componentDidMount() {
-            if (this.props.circuits.length <= 0) {
-                this.props.fetchData();
-            }
-        }
-    }, {
-        key: "render",
-        value: function render() {
-            var circuits = this.props.circuits;
+var cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
+function Home() {
+  var classes = useStyles();
 
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,
+    null,
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_8__["default"], null),
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+      'main',
+      null,
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+        'div',
+        { className: classes.heroContent },
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('img', { src: 'http://www.historicaljourneys.in/wp-content/uploads/2019/05/Delhi.jpg',
+          alt: 'Italian Trulli',
+          style: { backgroundRepeat: 'no-repeat',
+            backgroundImage: 'url(http://www.historicaljourneys.in/wp-content/uploads/2019/05/Delhi.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center center',
+            width: '100%',
+            height: '100%',
+            opacity: 1,
+            zIndex: 20 } })
+      ),
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+        _material_ui_core_Container__WEBPACK_IMPORTED_MODULE_13__["default"],
+        { className: classes.cardGrid, maxWidth: 'md' },
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+          _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"],
+          { container: true, spacing: 4 },
+          cards.map(function (card) {
             return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                "div",
-                null,
+              _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"],
+              { item: true, key: card, xs: 12, sm: 6, md: 4 },
+              react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                _material_ui_core_Card__WEBPACK_IMPORTED_MODULE_4__["default"],
+                { className: classes.card },
+                react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                  className: classes.cardMedia,
+                  image: 'https://source.unsplash.com/random',
+                  title: 'Image title'
+                }),
                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                    "h2",
+                  _material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_6__["default"],
+                  { className: classes.cardContent },
+                  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                    _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_11__["default"],
+                    { gutterBottom: true, variant: 'h5', component: 'h2' },
+                    'Heading'
+                  ),
+                  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                    _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_11__["default"],
                     null,
-                    "F1 2018 Season Calendar"
+                    'This is a media card. You can use this section to describe the content.'
+                  )
                 ),
                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                    "ul",
-                    null,
-                    circuits.map(function (_ref) {
-                        var circuitId = _ref.circuitId,
-                            circuitName = _ref.circuitName,
-                            Location = _ref.Location;
-                        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                            "li",
-                            { key: circuitId },
-                            circuitName,
-                            " - ",
-                            Location.locality,
-                            ", ",
-                            Location.country
-                        );
-                    })
+                  _material_ui_core_CardActions__WEBPACK_IMPORTED_MODULE_5__["default"],
+                  null,
+                  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                    _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2__["default"],
+                    { size: 'small', color: 'primary' },
+                    'View'
+                  ),
+                  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                    _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2__["default"],
+                    { size: 'small', color: 'primary' },
+                    'Edit'
+                  )
                 )
+              )
             );
-        }
-    }]);
-
-    return Home;
-}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
-
-Home.serverFetch = _store__WEBPACK_IMPORTED_MODULE_2__["fetchData"]; // static declaration of data requirements
-
-var mapStateToProps = function mapStateToProps(state) {
-    return {
-        circuits: state.data
-    };
-};
-
-var mapDispatchToProps = {
-    fetchData: _store__WEBPACK_IMPORTED_MODULE_2__["fetchData"]
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Home));
+          })
+        )
+      )
+    ),
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+      'footer',
+      { className: classes.footer },
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+        _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_11__["default"],
+        { variant: 'h6', align: 'center', gutterBottom: true },
+        'Footer'
+      ),
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+        _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_11__["default"],
+        { variant: 'subtitle1', align: 'center', color: 'textSecondary', component: 'p' },
+        'Something here to give the footer a purpose!'
+      ),
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MadeWithLove, null)
+    )
+  );
+}
 
 /***/ }),
 
@@ -46314,11 +46749,6 @@ var Layout = function (_React$Component) {
             return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                 "div",
                 null,
-                react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                    "h1",
-                    null,
-                    this.state.title
-                ),
                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], null),
                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                     react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"],
@@ -46335,6 +46765,102 @@ var Layout = function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./components/Season.js":
+/*!******************************!*\
+  !*** ./components/Season.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "../node_modules/react-redux/es/index.js");
+/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../store */ "./store.js");
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+var Season = function (_React$Component) {
+    _inherits(Season, _React$Component);
+
+    function Season() {
+        _classCallCheck(this, Season);
+
+        return _possibleConstructorReturn(this, (Season.__proto__ || Object.getPrototypeOf(Season)).apply(this, arguments));
+    }
+
+    _createClass(Season, [{
+        key: "componentDidMount",
+        value: function componentDidMount() {
+            if (this.props.circuits.length <= 0) {
+                console.log('componentDidMount', this.props);
+                this.props.fetchData();
+            }
+        }
+    }, {
+        key: "render",
+        value: function render() {
+            var circuits = this.props.circuits;
+
+
+            return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                "div",
+                null,
+                react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                    "h2",
+                    null,
+                    "F1 2018 Season Calendar"
+                ),
+                react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                    "ul",
+                    null,
+                    circuits.map(function (_ref) {
+                        var circuitId = _ref.circuitId,
+                            circuitName = _ref.circuitName,
+                            Location = _ref.Location;
+                        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                            "li",
+                            { key: circuitId },
+                            circuitName,
+                            " - ",
+                            Location.locality,
+                            ", ",
+                            Location.country
+                        );
+                    })
+                )
+            );
+        }
+    }]);
+
+    return Season;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+//Season.serverFetch = fetchData; // static declaration of data requirements
+
+var mapStateToProps = function mapStateToProps(state) {
+    return {
+        circuits: state.data
+    };
+};
+
+var mapDispatchToProps = {
+    fetchData: _store__WEBPACK_IMPORTED_MODULE_2__["fetchData"]
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Season));
 
 /***/ }),
 
@@ -46374,7 +46900,7 @@ var Secret = function Secret() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Home */ "./components/Home.js");
 /* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/About */ "./components/About.js");
-/* harmony import */ var _components_Contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Contact */ "./components/Contact.js");
+/* harmony import */ var _components_Season__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Season */ "./components/Season.js");
 /* harmony import */ var _components_Secret__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Secret */ "./components/Secret.js");
 
 
@@ -46390,8 +46916,8 @@ __webpack_require__.r(__webpack_exports__);
     component: _components_About__WEBPACK_IMPORTED_MODULE_1__["default"],
     exact: true
 }, {
-    path: "/contact",
-    component: _components_Contact__WEBPACK_IMPORTED_MODULE_2__["default"],
+    path: "/season",
+    component: _components_Season__WEBPACK_IMPORTED_MODULE_2__["default"],
     exact: true
 }, {
     path: "/secret",
@@ -46494,7 +47020,7 @@ __webpack_require__.r(__webpack_exports__);
 var theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_0__["createMuiTheme"])({
     palette: {
         primary: {
-            main: "#556cd6"
+            main: "#FFC107"
         },
         secondary: {
             main: "#19857b"

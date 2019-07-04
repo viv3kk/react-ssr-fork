@@ -1,6 +1,6 @@
 import Home from "./components/Home";
 import About from "./components/About";
-import Contact from "./components/Contact";
+import Season from "./components/Season";
 import Secret from "./components/Secret";
 
 export default [
@@ -15,8 +15,8 @@ export default [
         exact: true,
     },
     {
-        path: "/contact",
-        component: Contact,
+        path: "/season",
+        component: Season,
         exact: true,
     },
     {
